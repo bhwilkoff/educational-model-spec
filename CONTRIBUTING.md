@@ -15,16 +15,23 @@ Thank you for your interest in building AI that truly serves learning! This spec
 
 ### 💬 Join Discussions
 Share your experiences, ask questions, and help shape the specification:
-- [💡 Ideas & Proposals](../../discussions/categories/ideas-proposals) - Suggest new concepts or approaches
-- [🎓 Implementation Stories](../../discussions/categories/implementation-stories) - Share what's working (or not) in real classrooms
-- [🛠️ Technical Implementation](../../discussions/categories/technical-implementation) - Discuss how to build these ideas
-- [📊 Research & Evidence](../../discussions/categories/research-evidence) - Share relevant studies and data
-- [❓ Q&A](../../discussions/categories/q-a) - Ask questions about any aspect of the project
+- [💡 Ideas & Proposals](../../discussions/categories/ideas-and-proposals) - Suggest new concepts or approaches
+- [🏫 Implementation Stories](../../discussions/categories/implementation-stories) - Share what's working (or not) in real classrooms
+- [🤔 Q&A](../../discussions/categories/q-a) - Ask questions about any aspect of the project
+- [📊 Research & Evidence](../../discussions/categories/research-and-evidence) - Share relevant studies and data
+- [⚖️ Justice & Equity](../../discussions/categories/justice-and-equity) - Discuss how to better serve marginalized communities
+- [💬 General](../../discussions) - Open-ended conversations about the specification
 
 ### 📝 Suggest Changes
 - **Small improvements:** Comment directly on specific sections with suggestions
 - **Larger changes:** [Open an issue](../../issues/new) to discuss before submitting a pull request
-- **New sections:** Propose additions through discussions first to gather community input
+- **New sections or tools:** Propose additions through discussions first to gather community input
+
+### 🛠️ Test Implementation Tools
+We've developed practical tools to support implementation. Try them out and share feedback:
+- [AI Disclosure & Reflection Protocol](docs/implementation-tools/ai_disclosure_protocol.md) - Test transparent AI collaboration practices
+- [Thinking Engagement Rubrics](docs/implementation-tools/thinking_engagement_rubrics.md) - Distinguish between AI shortcuts and productive thinking
+- Share your experience using these tools in [Implementation Stories](../../discussions/categories/implementation-stories)
 
 ### 🔍 Review & Feedback
 - Review proposed changes and provide thoughtful feedback
@@ -49,6 +56,7 @@ Share your experiences, ask questions, and help shape the specification:
 - Advocate for authentic assessment over test performance
 
 **Getting started:**
+- Try the [AI Disclosure & Reflection Protocol](docs/implementation-tools/ai_disclosure_protocol.md) and [Thinking Engagement Rubrics](docs/implementation-tools/thinking_engagement_rubrics.md)
 - Read the [AI Guardrails section](docs/overview.md#5-ai-guardrails-engaging-vs-subverting-thinking) 
 - Share your experience in [Implementation Stories](../../discussions/categories/implementation-stories)
 - Join the conversation about [Student Data Ownership](docs/overview.md#6-student-ownership-of-learning-data--meaningful-portfolios)
@@ -64,9 +72,10 @@ Share your experiences, ask questions, and help shape the specification:
 - Advocate for teacher agency in AI implementation
 
 **Getting started:**
+- Test our [Implementation Tools](docs/implementation-tools/) in your classroom
 - Review the [Assessment Philosophy](docs/overview.md#4-assessment-philosophy--practice) section
 - Share your thoughts on [Human-Centered Design](docs/overview.md#3-human-centered-learning-design)
-- Discuss implementation challenges in [Technical Implementation](../../discussions/categories/technical-implementation)
+- Discuss implementation challenges in [Implementation Stories](../../discussions/categories/implementation-stories)
 
 ### 👨‍👩‍👧‍👦 For Families & Communities  
 **You know your children and communities better than any algorithm.** Help us ensure AI serves your values and needs.
@@ -81,7 +90,8 @@ Share your experiences, ask questions, and help shape the specification:
 **Getting started:**
 - Read about [Democratic Governance](docs/overview.md#2-democratic-governance--stakeholder-input)
 - Explore [Dismantling Systems of Oppression](docs/overview.md#8-dismantling-systems-of-oppression-through-educational-ai)
-- Share your perspective in [Ideas & Proposals](../../discussions/categories/ideas-proposals)
+- Share your perspective in [Ideas & Proposals](../../discussions/categories/ideas-and-proposals)
+- Join [Justice & Equity](../../discussions/categories/justice-and-equity) discussions
 
 ### 💻 For Technologists
 **We need your skills to build AI that serves learning rather than efficiency.** Help us create tools that empower rather than replace human intelligence.
@@ -95,7 +105,8 @@ Share your experiences, ask questions, and help shape the specification:
 
 **Getting started:**
 - Study the [AI Guardrails](docs/overview.md#5-ai-guardrails-engaging-vs-subverting-thinking) technical requirements
-- Contribute to [Technical Implementation](../../discussions/categories/technical-implementation) discussions
+- Review our [Implementation Tools](docs/implementation-tools/) and suggest technical improvements
+- Contribute to [Ideas & Proposals](../../discussions/categories/ideas-and-proposals) discussions about new tools
 - Review our approach to [Privacy & Safety](docs/overview.md#7-privacy-safety--well-being)
 
 ### 📚 For Researchers
@@ -109,8 +120,9 @@ Share your experiences, ask questions, and help shape the specification:
 - Challenge assumptions with evidence
 
 **Getting started:**
-- Contribute to [Research & Evidence](../../discussions/categories/research-evidence) discussions
+- Contribute to [Research & Evidence](../../discussions/categories/research-and-evidence) discussions
 - Review our [Assessment Philosophy](docs/overview.md#4-assessment-philosophy--practice) for research opportunities
+- Test our [Implementation Tools](docs/implementation-tools/) and provide evidence-based feedback
 - Help strengthen our [Implementation Roadmap](docs/overview.md#implementation-roadmap) with evidence
 
 ## 📋 Contribution Process
@@ -158,6 +170,7 @@ This specification is **not** for:
 - **Questions about contributing?** [Start a Q&A discussion](../../discussions/categories/q-a)
 - **Technical issues?** [Open an issue](../../issues/new) with details
 - **Community concerns?** See our [Community Agreement](CODE_OF_CONDUCT.md) for guidance
+- **Implementation questions?** Share in [Implementation Stories](../../discussions/categories/implementation-stories)
 - **Not sure where to start?** Introduce yourself in [General discussions](../../discussions)
 
 ## 🙏 Recognition
