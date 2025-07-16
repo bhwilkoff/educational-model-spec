@@ -1,6 +1,6 @@
 # Educational Model Spec (Draft v0.1)
 
-> *An open-source specification for AI in education that prioritizes human learning, authentic expression, and democratic participation over test outcomes and performative achievement.*
+> *An open-source, democratically-developed specification for AI in education that prioritizes human learning, teacher empowerment, and student agency over test outcomes.*
 
 ---
 
