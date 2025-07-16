@@ -56,8 +56,9 @@ Beyond diversity theater, educational justice, community accountability
 ## 🛠️ Ready to Implement?
 
 ### Available Tools
-- **[AI Disclosure & Reflection Protocol](docs/implementation-tools/ai-disclosure-protocol.md)** - Start building transparent AI collaboration practices
-- **[Thinking Engagement Rubrics](docs/implementation-tools/thinking-engagement-rubrics.md)** - Help students distinguish between AI shortcuts and productive thinking
+- **[AI Disclosure & Reflection Protocol](docs/implementation-tools/ai_disclosure_protocol.md)** - Start building transparent AI collaboration practices
+- **[Thinking Engagement Rubrics](docs/implementation-tools/thinking_engagement_rubrics.md)** - Help students distinguish between AI shortcuts and productive thinking
+- **[AI Guardrails Prompt(s)](docs/implementation-tools/ai_guardrails_prompt.md)** - Transform ChatGPT, Claude, or any other AI into a learning partner that follows the Educational Model Spec.
 
 ### [View All Implementation Tools →](docs/implementation-tools/)
 
