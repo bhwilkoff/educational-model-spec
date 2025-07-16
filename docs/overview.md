@@ -459,15 +459,15 @@ We design AI to create productive cognitive friction—the kind of intellectual 
 Ready to put these principles into practice? We've developed practical tools to support implementation in real learning communities:
 
 ### Available Now
-- **[AI Disclosure & Reflection Protocol](docs/implementation-tools/ai-disclosure-protocol.md)** - Templates for teachers and students to build transparent, learning-focused AI collaboration practices
+- **[AI Disclosure & Reflection Protocol](implementation-tools/ai_disclosure_protocol.md)** - Templates for teachers and students to build transparent, learning-focused AI collaboration practices
+- **[Thinking Engagement Rubrics](implementation-tools/thinking_engagement_rubrics.md)** - Tools for students and teachers to distinguish between AI collaboration that strengthens vs. shortcuts thinking
 
 ### Coming Soon
 - **Community Governance Templates** - Structures for authentic student voice and family engagement
-- **Thinking Engagement Rubrics** - Tools for evaluating whether AI interactions strengthen student thinking
 - **Portfolio Development Guides** - Step-by-step processes for student-owned learning narratives
 - **Bias Interruption Protocols** - Community-led tools for identifying and addressing AI bias
 
-*Find all implementation tools in the [/docs/implementation-tools/](docs/implementation-tools/) directory.*
+*Find all implementation tools in the [implementation-tools/](implementation-tools/) directory.*
 
 ---
 

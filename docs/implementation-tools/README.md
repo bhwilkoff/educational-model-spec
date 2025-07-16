@@ -45,6 +45,19 @@ Every tool in this collection embodies the core principles of the Educational Mo
 
 **Get started**: Use the template language in your next assignment that naturally invites AI collaboration
 
+### [Thinking Engagement Rubrics](thinking-engagement-rubrics.md) ✅
+**Purpose**: Help students and teachers distinguish between AI collaboration that strengthens thinking vs. shortcuts that bypass learning
+
+**Who it's for**: Students self-assessing their AI interactions, teachers observing learning engagement, faculty developing shortcut-resistant assignments
+
+**Key features**:
+- Student self-assessment tools with red flags and green lights
+- Teacher observation guides for spotting thinking shortcuts
+- Assignment design checklist for shortcut-resistant learning
+- Professional learning discussion protocols
+
+**Get started**: Have students use the quick self-check after their next AI collaboration
+
 ---
 
 ## Coming Soon
@@ -57,15 +70,6 @@ Every tool in this collection embodies the core principles of the Educational Mo
 - Family engagement forum templates
 - Community accountability protocols
 - Conflict resolution procedures that center relationship
-
-### Thinking Engagement Rubrics 🚧
-**Purpose**: Tools for evaluating whether AI interactions strengthen or weaken student thinking
-
-**Will include**:
-- Rubrics for assessing cognitive engagement
-- Observation protocols for classroom AI use
-- Student self-assessment tools
-- Professional learning discussion guides
 
 ### Portfolio Development Guides 🚧
 **Purpose**: Step-by-step processes for students to build meaningful, student-owned learning narratives
@@ -174,7 +178,7 @@ These practical tools serve the larger transformational vision of the Educationa
 
 ## Quick Links
 
-- **[Educational Model Spec Overview](../../README.md)** - Return to the main specification
+- **[Educational Model Spec Overview](../overview.md)** - Return to the main specification
 - **[AI Disclosure Protocol](ai-disclosure-protocol.md)** - Start with transparent AI collaboration practices
 - **[Community Guidelines](../../CONTRIBUTING.md)** - Learn how to contribute to this work
 - **[Latest Updates](../../CHANGELOG.md)** - See what's new and what's coming
