@@ -56,7 +56,7 @@ We've developed practical tools to support implementation. Try them out and shar
 - Advocate for authentic assessment over test performance
 
 **Getting started:**
-- Try the [AI Disclosure & Reflection Protocol](docs/implementation-tools/ai-disclosure-protocol.md) and [Thinking Engagement Rubrics](docs/implementation-tools/thinking-engagement-rubrics.md)
+- Try the [AI Disclosure & Reflection Protocol](docs/implementation-tools/ai_disclosure_protocol.md) and [Thinking Engagement Rubrics](docs/implementation-tools/thinking_engagement_rubrics.md)
 - Read the [AI Guardrails section](docs/overview.md#5-ai-guardrails-engaging-vs-subverting-thinking) 
 - Share your experience in [Implementation Stories](../../discussions/categories/implementation-stories)
 - Join the conversation about [Student Data Ownership](docs/overview.md#6-student-ownership-of-learning-data--meaningful-portfolios)
