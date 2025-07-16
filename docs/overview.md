@@ -4,107 +4,6 @@
 
 ---
 
-## 8. Student Ownership of Learning Data & Meaningful Portfolios
-
-### Every Student Graduates With Their Learning Story
-
-**The vision:** Instead of leaving school with just transcripts and test scores, every student graduates with a comprehensive, student-owned portfolio that captures how they learn best, what environments help them thrive, and how they can contribute meaningfully to future learning and working communities.
-
-### What a Meaningful Learning Portfolio Contains
-
-**Learning preferences and strategies:**
-- **Optimal learning conditions:** Physical environment, time of day, social configuration, pacing preferences
-- **Processing strengths:** Visual, auditory, kinesthetic, analytical, creative, collaborative approaches that work best
-- **Communication styles:** How they best express understanding—through writing, speaking, visual creation, performance, etc.
-- **Motivation patterns:** What kinds of challenges energize them, what purposes drive their best work
-- **Support needs:** What kind of help they seek when stuck, how they prefer to receive feedback
-
-**Intellectual growth documentation:**
-- **Evolution of thinking** on complex topics over time
-- **Questions that drive their curiosity** and how those questions have developed
-- **Breakthrough moments** in understanding and the conditions that made them possible
-- **Creative and analytical processes** they've developed and refined
-- **Collaborative contributions** and leadership in group learning situations
-
-**Authentic work products:**
-- **Projects that mattered to them** and demonstrated real-world impact
-- **Creative expressions** that capture their unique voice and perspective
-- **Problem-solving approaches** applied to genuine challenges
-- **Community contributions** through learning-based service and engagement
-- **Cross-disciplinary connections** they've discovered and explored
-
-**Reflection and metacognitive awareness:**
-- **Learning from failure** and how they've grown through challenges
-- **Self-advocacy skills** they've developed for getting support and resources
-- **Goal-setting and revision** processes that work for them
-- **Values and ethical framework** that guide their learning and work choices
-
-### Student Control and Ownership
-
-**Students maintain complete control over:**
-- **What gets included** in their portfolio and what remains private
-- **How their learning story is told** and what narrative threads they emphasize
-- **Who has access** to different parts of their portfolio and for what purposes
-- **How data is used** by future schools, employers, or organizations
-- **Evolution and updates** throughout their lives as they continue learning
-
-**Privacy by design:**
-- **Granular sharing controls:** Students can share learning preferences without sharing specific work products
-- **Purpose limitation:** Data can only be used for supporting the student's learning and growth
-- **Right to deletion:** Students can remove any element from their portfolio at any time
-- **Data portability:** Students own their data and can transfer it between platforms and institutions
-
-### How This Changes Post-Secondary Transitions
-
-**For college admissions:**
-- Admissions counselors understand not just what students have achieved, but how they learn best
-- Students can advocate for learning environments and support systems that help them thrive
-- Colleges can design first-year experiences based on actual learning diversity rather than assumptions
-
-**For employment:**
-- Employers see authentic evidence of problem-solving, creativity, and collaboration
-- Job matching can consider learning style compatibility, not just skill checklists
-- Workplace onboarding can be tailored to how new employees learn most effectively
-- Career development can build on documented interests and growth patterns
-
-**For lifelong learning:**
-- Students have tools for self-advocacy in any learning environment
-- They understand their own learning patterns and can seek appropriate challenges
-- Continued documentation supports career transitions and skill development
-- Learning communities can be formed around compatible approaches and interests
-
-### AI's Role in Portfolio Development
-
-**AI supports students by:**
-- **Pattern recognition:** Helping students notice their own learning preferences and growth over time
-- **Synthesis assistance:** Organizing learning experiences into coherent narratives
-- **Reflection prompts:** Asking questions that deepen self-awareness about learning
-- **Connection mapping:** Highlighting links between different learning experiences and interests
-- **Portfolio curation:** Helping students select and present their most meaningful work
-
-**AI never:**
-- Makes decisions about what should be included in portfolios
-- Interprets student learning data for external audiences
-- Compares students to each other or to normative standards
-- Reduces complex learning journeys to simple categories or scores
-- Shares student data without explicit, informed consent
-
-### Supporting Infrastructure
-
-**Technical requirements:**
-- **Interoperable systems** that allow data portability between platforms
-- **Student-controlled interfaces** for managing privacy and sharing
-- **Long-term sustainability** ensuring portfolios remain accessible over time
-- **Accessibility features** supporting diverse ways of creating and accessing portfolios
-
-**Community support:**
-- **Portfolio mentoring:** Older students and community members help younger students curate their learning stories
-- **Celebration practices:** Regular opportunities to share and appreciate diverse learning journeys
-- **Transition support:** Guidance for using portfolios effectively in college and career contexts
-- **Family engagement:** Helping families understand and support portfolio development
-
----
-
 ## Our Foundational Belief
 
 **Learning is change.** Not the accumulation of facts for regurgitation, not the performance of understanding for external validation, but the authentic transformation that occurs when humans engage with ideas, with each other, and with the world around them.
@@ -348,78 +247,104 @@ We design AI to create productive cognitive friction—the kind of intellectual 
 
 ---
 
-## 6. Dismantling Systems of Oppression Through Educational AI
+## 6. Student Ownership of Learning Data & Meaningful Portfolios
 
-### Beyond Diversity Theater: Authentic Liberation Work
+### Every Student Graduates With Their Learning Story
 
-**We reject performative inclusion that maintains existing power structures while appearing progressive.** True equity work means actively dismantling the systems that determine who gets to learn, how they're allowed to learn, and whose ways of knowing are valued.
+**The vision:** Instead of leaving school with just transcripts and test scores, every student graduates with a comprehensive, student-owned portfolio that captures how they learn best, what environments help them thrive, and how they can contribute meaningfully to future learning and working communities.
 
-### Identifying and Interrupting Oppressive Systems
+### What a Meaningful Learning Portfolio Contains
 
-**Educational systems currently designed to sort and rank students based on:**
-- **Proximity to white, middle-class cultural norms** disguised as "academic readiness"
-- **Standardized definitions of intelligence** that ignore diverse cognitive strengths  
-- **English-dominant communication styles** that devalue multilingual assets
-- **Individual competition** over collaborative problem-solving valued in many cultures
-- **Linear, text-based learning** over visual, kinesthetic, or oral traditions
-- **Compliance and conformity** over critical questioning and creative expression
+**Learning preferences and strategies:**
+- **Optimal learning conditions:** Physical environment, time of day, social configuration, pacing preferences
+- **Processing strengths:** Visual, auditory, kinesthetic, analytical, creative, collaborative approaches that work best
+- **Communication styles:** How they best express understanding—through writing, speaking, visual creation, performance, etc.
+- **Motivation patterns:** What kinds of challenges energize them, what purposes drive their best work
+- **Support needs:** What kind of help they seek when stuck, how they prefer to receive feedback
 
-**How AI can perpetuate these systems:**
-- Training data biased toward dominant cultural perspectives
-- Assessment algorithms that reward privileged communication styles
-- Content that centers Western/European knowledge traditions
-- Interaction patterns that favor neurotypical learning approaches
-- Visual representations that exclude or stereotype marginalized communities
+**Intellectual growth documentation:**
+- **Evolution of thinking** on complex topics over time
+- **Questions that drive their curiosity** and how those questions have developed
+- **Breakthrough moments** in understanding and the conditions that made them possible
+- **Creative and analytical processes** they've developed and refined
+- **Collaborative contributions** and leadership in group learning situations
 
-### AI as Tool for Educational Justice
+**Authentic work products:**
+- **Projects that mattered to them** and demonstrated real-world impact
+- **Creative expressions** that capture their unique voice and perspective
+- **Problem-solving approaches** applied to genuine challenges
+- **Community contributions** through learning-based service and engagement
+- **Cross-disciplinary connections** they've discovered and explored
 
-**Proactive liberation strategies:**
+**Reflection and metacognitive awareness:**
+- **Learning from failure** and how they've grown through challenges
+- **Self-advocacy skills** they've developed for getting support and resources
+- **Goal-setting and revision** processes that work for them
+- **Values and ethical framework** that guide their learning and work choices
 
-**Decolonizing curriculum through AI:**
-- Actively surface knowledge traditions from Global South, Indigenous, and marginalized communities
-- Challenge AI to present multiple cultural perspectives on every topic
-- Require AI to acknowledge whose voices are missing from discussions
-- Connect local knowledge to global learning opportunities
+### Student Control and Ownership
 
-**Disrupting linguistic supremacy:**
-- Support learning in students' home languages, not just English translation
-- Recognize code-switching and multilingual expression as intellectual assets
-- Validate diverse communication styles, from storytelling to mathematical expression
-- Resist AI that "corrects" language toward dominant norms
+**Students maintain complete control over:**
+- **What gets included** in their portfolio and what remains private
+- **How their learning story is told** and what narrative threads they emphasize
+- **Who has access** to different parts of their portfolio and for what purposes
+- **How data is used** by future schools, employers, or organizations
+- **Evolution and updates** throughout their lives as they continue learning
 
-**Honoring neurodiversity:**
-- Multiple pathways for processing and expressing understanding
-- Flexible pacing that honors different processing speeds and styles
-- Sensory-aware learning environments and AI interactions
-- Recognition that stimming, fidgeting, and movement can enhance learning
+**Privacy by design:**
+- **Granular sharing controls:** Students can share learning preferences without sharing specific work products
+- **Purpose limitation:** Data can only be used for supporting the student's learning and growth
+- **Right to deletion:** Students can remove any element from their portfolio at any time
+- **Data portability:** Students own their data and can transfer it between platforms and institutions
 
-**Economic justice in AI access:**
-- Universal access regardless of school funding or family income
-- Community-controlled technology that serves local needs
-- Training and support for educators in under-resourced schools
-- Student and family data sovereignty, especially for marginalized communities
+### How This Changes Post-Secondary Transitions
 
-### Community Accountability Mechanisms
+**For college admissions:**
+- Admissions counselors understand not just what students have achieved, but how they learn best
+- Students can advocate for learning environments and support systems that help them thrive
+- Colleges can design first-year experiences based on actual learning diversity rather than assumptions
 
-**How we ensure authentic progress:**
+**For employment:**
+- Employers see authentic evidence of problem-solving, creativity, and collaboration
+- Job matching can consider learning style compatibility, not just skill checklists
+- Workplace onboarding can be tailored to how new employees learn most effectively
+- Career development can build on documented interests and growth patterns
 
-**Student-led auditing:** Students from marginalized communities lead regular reviews of AI behavior, content, and impact on their learning experience.
+**For lifelong learning:**
+- Students have tools for self-advocacy in any learning environment
+- They understand their own learning patterns and can seek appropriate challenges
+- Continued documentation supports career transitions and skill development
+- Learning communities can be formed around compatible approaches and interests
 
-**Community oversight:** Local communities, especially those historically excluded from educational decision-making, have governance power over AI implementation.
+### AI's Role in Portfolio Development
 
-**Educator reflection protocols:** Regular examination of how AI tools might be reinforcing or challenging biases in teaching practice.
+**AI supports students by:**
+- **Pattern recognition:** Helping students notice their own learning preferences and growth over time
+- **Synthesis assistance:** Organizing learning experiences into coherent narratives
+- **Reflection prompts:** Asking questions that deepen self-awareness about learning
+- **Connection mapping:** Highlighting links between different learning experiences and interests
+- **Portfolio curation:** Helping students select and present their most meaningful work
 
-**Systemic impact measurement:** Track whether AI is reducing or increasing educational inequities over time, with community-defined metrics.
+**AI never:**
+- Makes decisions about what should be included in portfolios
+- Interprets student learning data for external audiences
+- Compares students to each other or to normative standards
+- Reduces complex learning journeys to simple categories or scores
+- Shares student data without explicit, informed consent
 
-### Preparing Students for Justice Work
+### Supporting Infrastructure
 
-**AI should actively develop students' capacity to:**
-- **Analyze power structures** and their impact on communities
-- **Question dominant narratives** and seek suppressed perspectives  
-- **Build solidarity** across lines of difference
-- **Organize for change** in their schools and communities
-- **Imagine alternatives** to current systems that harm people
-- **Practice collective problem-solving** for community challenges
+**Technical requirements:**
+- **Interoperable systems** that allow data portability between platforms
+- **Student-controlled interfaces** for managing privacy and sharing
+- **Long-term sustainability** ensuring portfolios remain accessible over time
+- **Accessibility features** supporting diverse ways of creating and accessing portfolios
+
+**Community support:**
+- **Portfolio mentoring:** Older students and community members help younger students curate their learning stories
+- **Celebration practices:** Regular opportunities to share and appreciate diverse learning journeys
+- **Transition support:** Guidance for using portfolios effectively in college and career contexts
+- **Family engagement:** Helping families understand and support portfolio development
 
 ---
 
@@ -451,6 +376,8 @@ We design AI to create productive cognitive friction—the kind of intellectual 
 - Self-compassion and emotional regulation
 - Help-seeking when struggling
 - Connection with caring adults and peers
+
+---
 
 ## 8. Dismantling Systems of Oppression Through Educational AI
 
