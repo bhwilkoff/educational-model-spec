@@ -58,6 +58,19 @@ Every tool in this collection embodies the core principles of the Educational Mo
 
 **Get started**: Have students use the quick self-check after their next AI collaboration
 
+### [AI Guardrails Prompt Template](ai_guardrails_prompt.md) ✅
+**Purpose**: Transform any general-purpose AI system (ChatGPT, Claude, etc.) into a learning partner that follows Educational Model Spec principles
+
+**Who it's for**: Students using AI for homework help, teachers modeling AI collaboration, anyone wanting to implement thinking-protective AI interactions
+
+**Key features**:
+- Copy-paste prompt that transforms AI behavior to protect thinking
+- Subject-specific customization options for different disciplines
+- Age-appropriate modifications for different grade levels
+- Troubleshooting guide for common implementation challenges
+
+**Get started**: Copy the prompt into your AI system's custom instructions and test it with a learning task
+
 ---
 
 ## Coming Soon
@@ -179,7 +192,7 @@ These practical tools serve the larger transformational vision of the Educationa
 ## Quick Links
 
 - **[Educational Model Spec Overview](../overview.md)** - Return to the main specification
-- **[AI Disclosure Protocol](ai-disclosure-protocol.md)** - Start with transparent AI collaboration practices
+- **[AI Disclosure Protocol](ai_disclosure_protocol.md)** - Start with transparent AI collaboration practices
 - **[Community Guidelines](../../CONTRIBUTING.md)** - Learn how to contribute to this work
 - **[Latest Updates](../../CHANGELOG.md)** - See what's new and what's coming
 
