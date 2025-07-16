@@ -12,6 +12,16 @@
 
 ---
 
+## Making the Spec Executable
+
+**From Intentions to Actions:** The Educational Model Spec functions as executable policy. These implementation tools help communities translate specification principles into concrete practices, measurable outcomes, and systematic improvements.
+
+**Specification Compliance Framework:** Each tool includes mechanisms for evaluating whether implementations actually follow the spec's principles, with community-defined success criteria and feedback loops for continuous improvement.
+
+**Democratic Compilation:** Unlike corporate AI specifications imposed from above, this spec is "compiled" through democratic participation where community feedback creates improvements and clarifications.
+
+---
+
 ## Philosophy in Practice
 
 Every tool in this collection embodies the core principles of the Educational Model Spec:
@@ -70,6 +80,36 @@ Every tool in this collection embodies the core principles of the Educational Mo
 - Troubleshooting guide for common implementation challenges
 
 **Get started**: Copy the prompt into your AI system's custom instructions and test it with a learning task
+
+---
+
+## Spec Compliance Testing Framework
+
+### [Specification Clarity Checklist](spec_compliance_testing.md) 🚧
+**Purpose**: Systematic evaluation of whether AI implementations actually follow Educational Model Spec principles
+
+**Who it's for**: Community members auditing AI systems, educators evaluating AI tools, students checking whether AI interactions serve their learning
+
+**Key features**:
+- Clause-by-clause compliance evaluation using unique spec IDs (EMS-XXX-##)
+- Success criteria checklists for each major specification section
+- Community audit protocols for systematic review processes
+- "Bug report" templates for when AI behavior violates the specification
+
+**Get started**: Use the checklist to evaluate any AI interaction against specific Educational Model Spec clauses
+
+### [Ambiguity Detection Tools](ambiguity_detection.md) 🚧
+**Purpose**: Identify unclear or contradictory elements in specification implementation
+
+**Who it's for**: Communities reviewing and improving the specification, developers building spec-compliant AI systems
+
+**Key features**:
+- Frameworks for identifying contradictory principles
+- Community protocols for clarifying ambiguous clauses
+- Testing procedures for proposed specification changes
+- Conflict resolution processes when interpretations differ
+
+**Get started**: Review recent AI interactions for potential specification ambiguities and propose clarifications
 
 ---
 
