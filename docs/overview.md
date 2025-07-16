@@ -459,7 +459,7 @@ We design AI to create productive cognitive friction—the kind of intellectual 
 Ready to put these principles into practice? We've developed practical tools to support implementation in real learning communities:
 
 ### Available Now
-- **[AI Disclosure & Reflection Protocol](implementation-tools/ai-disclosure-protocol.md)** - Templates for teachers and students to build transparent, learning-focused AI collaboration practices
+- **[AI Disclosure & Reflection Protocol](implementation-tools/ai_disclosure_protocol.md)** - Templates for teachers and students to build transparent, learning-focused AI collaboration practices
 
 ### Coming Soon
 - **Community Governance Templates** - Structures for authentic student voice and family engagement
