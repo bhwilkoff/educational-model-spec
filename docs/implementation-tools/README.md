@@ -32,7 +32,7 @@ Every tool in this collection embodies the core principles of the Educational Mo
 
 ## Available Tools
 
-### [AI Disclosure & Reflection Protocol](ai-disclosure-protocol.md) ✅
+### [AI Disclosure & Reflection Protocol](ai_disclosure_protocol.md) ✅
 **Purpose**: Transform AI "compliance" into learning opportunities through transparent reflection
 
 **Who it's for**: Teachers designing assignments, students collaborating with AI, classroom communities building norms
@@ -45,7 +45,7 @@ Every tool in this collection embodies the core principles of the Educational Mo
 
 **Get started**: Use the template language in your next assignment that naturally invites AI collaboration
 
-### [Thinking Engagement Rubrics](thinking-engagement-rubrics.md) ✅
+### [Thinking Engagement Rubrics](thinking_engagement_rubrics.md) ✅
 **Purpose**: Help students and teachers distinguish between AI collaboration that strengthens thinking vs. shortcuts that bypass learning
 
 **Who it's for**: Students self-assessing their AI interactions, teachers observing learning engagement, faculty developing shortcut-resistant assignments
