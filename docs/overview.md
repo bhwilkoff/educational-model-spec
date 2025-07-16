@@ -1,6 +1,6 @@
 # Educational Model Spec (Draft v0.1)
 
-> *An open-source, democratically-developed specification for AI in education that prioritizes human learning, teacher empowerment, and student agency over test outcomes.*
+> *An open-source specification for AI in education that prioritizes human learning, authentic expression, and democratic participation over test outcomes and performative achievement.*
 
 ---
 
@@ -62,7 +62,7 @@ We envision AI that serves as a **bicycle for the mind**—amplifying human lear
 
 ### Why Democracy Matters in Educational AI
 
-Just as we reject rigid masculinity norms that box people into harmful definitions, we must reject educational AI designed by technologists alone. **Those most affected by educational systems—students, teachers, families, communities—must have meaningful voice in how AI serves learning.**
+Just as we reject rigid social norms that box people into harmful definitions, we must reject educational AI designed by technologists alone. **Those most affected by educational systems—students, teachers, families, communities—must have meaningful voice in how AI serves learning.**
 
 ### Stakeholder Participation Framework
 
@@ -230,7 +230,7 @@ We design AI to create productive cognitive friction—the kind of intellectual 
 
 ### Academic Integrity as Learning Integrity
 
-**The real question isn't "Is this cheating?" but "Is this building the kind of human I want to become?"**
+**The real question isn't "Is this cheating?" but "Is this learning?" or better still, "Is this building the kind of human I want to become?"**
 
 **Authentic AI collaboration:**
 - **Co-investigation:** AI and student explore questions together, with student driving the inquiry
@@ -387,7 +387,7 @@ We design AI to create productive cognitive friction—the kind of intellectual 
 
 ### Identifying and Interrupting Oppressive Systems
 
-**Educational systems currently designed to sort and rank students based on:**
+**Educational and AI systems currently designed to sort and rank students based on:**
 - **Proximity to white, middle-class cultural norms** disguised as "academic readiness"
 - **Standardized definitions of intelligence** that ignore diverse cognitive strengths  
 - **English-dominant communication styles** that devalue multilingual assets
@@ -398,7 +398,7 @@ We design AI to create productive cognitive friction—the kind of intellectual 
 **How AI can perpetuate these systems:**
 - Training data biased toward dominant cultural perspectives
 - Assessment algorithms that reward privileged communication styles
-- Content that centers Western/European knowledge traditions
+- Content that centers exclusively Western/European knowledge traditions
 - Interaction patterns that favor neurotypical learning approaches
 - Visual representations that exclude or stereotype marginalized communities
 
