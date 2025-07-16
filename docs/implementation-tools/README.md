@@ -175,7 +175,7 @@ These practical tools serve the larger transformational vision of the Educationa
 ## Quick Links
 
 - **[Educational Model Spec Overview](../../README.md)** - Return to the main specification
-- **[AI Disclosure Protocol](ai-disclosure-protocol.md)** - Start with transparent AI collaboration practices
+- **[AI Disclosure Protocol](ai_disclosure_protocol.md)** - Start with transparent AI collaboration practices
 - **[Community Guidelines](../../CONTRIBUTING.md)** - Learn how to contribute to this work
 - **[Latest Updates](../../CHANGELOG.md)** - See what's new and what's coming
 
