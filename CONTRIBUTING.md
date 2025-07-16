@@ -27,16 +27,60 @@ Share your experiences, ask questions, and help shape the specification:
 - **Larger changes:** [Open an issue](../../issues/new) to discuss before submitting a pull request
 - **New sections or tools:** Propose additions through discussions first to gather community input
 
+### 🔍 Specification Evolution
+**This specification functions as living code that evolves through community input.**
+
+**Proposing Amendments:**
+- Reference specific clause IDs (EMS-XXX-##) when suggesting changes
+- Provide evidence for why changes would better serve learning
+- Include proposed success criteria for measuring improvement
+- Test proposed changes with real community members before formal submission
+
+**Community Review Process:**
+1. **Discussion Phase**: Propose changes in [Ideas & Proposals](../../discussions/categories/ideas-and-proposals) with specific clause references
+2. **Community Testing**: Trial proposed changes in pilot implementations
+3. **Evidence Gathering**: Document outcomes and community feedback
+4. **Formal Proposal**: Submit pull request with community support and evidence
+5. **Democratic Decision**: Community review and collaborative refinement
+
+**Specification Debugging:**
+- Report when AI behavior violates specific clauses (use clause IDs like EMS-AGR-02a)
+- Identify ambiguous language that allows multiple interpretations
+- Suggest clarifications that maintain democratic values while improving clarity
+- Test whether "fixes" actually serve marginalized communities better
+
 ### 🛠️ Test Implementation Tools
 We've developed practical tools to support implementation. Try them out and share feedback:
-- [AI Disclosure & Reflection Protocol](docs/implementation-tools/ai_disclosure_protocol.md) - Test transparent AI collaboration practices
-- [Thinking Engagement Rubrics](docs/implementation-tools/thinking_engagement_rubrics.md) - Distinguish between AI shortcuts and productive thinking
+- [AI Disclosure & Reflection Protocol](docs/implementation-tools/ai-disclosure-protocol.md) - Test transparent AI collaboration practices
+- [Thinking Engagement Rubrics](docs/implementation-tools/thinking-engagement-rubrics.md) - Distinguish between AI shortcuts and productive thinking
 - Share your experience using these tools in [Implementation Stories](../../discussions/categories/implementation-stories)
 
 ### 🔍 Review & Feedback
 - Review proposed changes and provide thoughtful feedback
 - Test ideas in your educational context and report back
 - Help ensure changes align with our core principles
+- **Evaluate spec compliance**: Use clause IDs to assess whether implementations follow stated principles
+
+### 🧪 Specification Compliance Testing
+**Help ensure the specification actually works in practice:**
+
+**Community Auditing:**
+- Test AI systems against specific clauses (reference EMS-XXX-## IDs)
+- Document when AI behavior violates specification principles
+- Evaluate whether implementations serve stated success criteria
+- Report findings in [Implementation Stories](../../discussions/categories/implementation-stories)
+
+**Systematic Evaluation:**
+- Use our Spec Compliance Testing Framework to audit AI tools
+- Participate in community review of specification adherence
+- Help identify gaps between specification intent and implementation reality
+- Contribute to "debugging" the specification when it doesn't serve communities
+
+**Evidence Gathering:**
+- Document outcomes when specification principles are followed vs. ignored
+- Share data about whether changes actually benefit marginalized communities
+- Measure success using community-defined criteria, not institutional metrics
+- Build case studies of effective specification implementation
 
 ### 🌍 Expand Access
 - Translate materials into other languages
@@ -56,7 +100,7 @@ We've developed practical tools to support implementation. Try them out and shar
 - Advocate for authentic assessment over test performance
 
 **Getting started:**
-- Try the [AI Disclosure & Reflection Protocol](docs/implementation-tools/ai_disclosure_protocol.md) and [Thinking Engagement Rubrics](docs/implementation-tools/thinking_engagement_rubrics.md)
+- Try the [AI Disclosure & Reflection Protocol](docs/implementation-tools/ai-disclosure-protocol.md) and [Thinking Engagement Rubrics](docs/implementation-tools/thinking-engagement-rubrics.md)
 - Read the [AI Guardrails section](docs/overview.md#5-ai-guardrails-engaging-vs-subverting-thinking) 
 - Share your experience in [Implementation Stories](../../discussions/categories/implementation-stories)
 - Join the conversation about [Student Data Ownership](docs/overview.md#6-student-ownership-of-learning-data--meaningful-portfolios)
@@ -129,32 +173,43 @@ We've developed practical tools to support implementation. Try them out and shar
 
 ### 1. **Start with Discussion**
 Before making significant changes, start a discussion to:
-- Get community input on your ideas
-- Ensure alignment with our principles
-- Build support for substantial modifications
-- Learn from others' experiences
+- Get community input on your ideas using specific clause references (EMS-XXX-##)
+- Ensure alignment with our principles through community testing
+- Build support for substantial modifications with evidence
+- Learn from others' experiences implementing similar changes
 
 ### 2. **Small Changes**
 For typos, clarifications, or minor improvements:
 - Fork the repository
-- Make your changes
+- Make your changes with clear references to affected clauses
 - Submit a pull request with a clear description
 - Respond to feedback from reviewers
 
 ### 3. **Large Changes**
 For new sections, major revisions, or structural changes:
-- Start with a discussion or issue to gather input
-- Draft your proposal with community feedback
-- Submit pull request only after community discussion
+- Start with a discussion or issue to gather input using clause IDs
+- Draft your proposal with community feedback and success criteria
+- Test proposed changes in real educational contexts
+- Submit pull request only after community discussion and evidence gathering
 - Be prepared for multiple rounds of feedback and revision
 
-### 4. **Review Standards**
+### 4. **Specification Standards**
 All contributions will be evaluated based on:
-- **Alignment with core principles** - Does this serve authentic learning?
-- **Community input** - Have impacted stakeholders been heard?
+- **Alignment with core principles** - Does this serve authentic learning over efficiency?
+- **Community input** - Have impacted stakeholders been heard and centered?
 - **Evidence and experience** - Is this grounded in real educational contexts?
 - **Accessibility** - Can diverse communities understand and use this?
 - **Implementation feasibility** - Can this actually be built and sustained?
+- **Justice impact** - Does this dismantle rather than reform oppressive systems?
+- **Measurable outcomes** - Are success criteria clear and community-defined?
+
+### 5. **Specification Compliance**
+Changes must demonstrate that they:
+- Can be implemented using existing clause IDs or propose new ones
+- Include clear success criteria for measuring effectiveness
+- Have been tested with marginalized communities, not just privileged ones
+- Actually serve learning rather than institutional convenience
+- Maintain democratic governance and community accountability
 
 ## 🚫 What We Don't Want
 
