@@ -1,6 +1,6 @@
 # Educational Model Spec (Draft v0.1)
 
-> *An open-source specification for AI in education that prioritizes human learning, authentic expression, and democratic participation over test outcomes and performative achievement.*
+> *An open-source, democratically-developed specification for AI in education that prioritizes human learning, teacher empowerment, and student agency over test outcomes.*
 
 ---
 
@@ -461,6 +461,7 @@ Ready to put these principles into practice? We've developed practical tools to 
 ### Available Now
 - **[AI Disclosure & Reflection Protocol](implementation-tools/ai_disclosure_protocol.md)** - Templates for teachers and students to build transparent, learning-focused AI collaboration practices
 - **[Thinking Engagement Rubrics](implementation-tools/thinking_engagement_rubrics.md)** - Tools for students and teachers to distinguish between AI collaboration that strengthens vs. shortcuts thinking
+- **[AI Guardrails Prompt Template](implementation-tools/ai_guardrails_prompt.md)** - Transform any AI system to follow Educational Model Spec principles and protect student thinking
 
 ### Coming Soon
 - **Community Governance Templates** - Structures for authentic student voice and family engagement
