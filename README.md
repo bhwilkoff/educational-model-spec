@@ -11,6 +11,7 @@ This specification is designed BY educators, students, families, and communities
 ## 📚 Quick Start
 
 - 🌟 **[Read the Full Specification](docs/overview.md)** - Our complete framework for learning-centered AI
+- 🛠️ **[Implementation Tools](docs/implementation-tools/)** - Practical resources to start implementing today
 - 💬 **[Join the Discussion](../../discussions)** - Share your thoughts and experiences
 - 🤝 **[How to Contribute](CONTRIBUTING.md)** - Add your voice to this living document
 - 📋 **[Community Agreement](CODE_OF_CONDUCT.md)** - Our commitment to safe, inclusive collaboration
@@ -52,6 +53,14 @@ Data as sacred trust, emotional safety, supporting growth mindset
 ### 8. [Dismantling Oppression](docs/overview.md#8-dismantling-systems-of-oppression-through-educational-ai)
 Beyond diversity theater, educational justice, community accountability
 
+## 🛠️ Ready to Implement?
+
+### Available Tools
+- **[AI Disclosure & Reflection Protocol](docs/implementation-tools/ai-disclosure-protocol.md)** - Start building transparent AI collaboration practices
+- **[Thinking Engagement Rubrics](docs/implementation-tools/thinking-engagement-rubrics.md)** - Help students distinguish between AI shortcuts and productive thinking
+
+### [View All Implementation Tools →](docs/implementation-tools/)
+
 ## 🤝 Who We Need
 
 - **🎓 Students** - Your voice matters most in shaping AI that serves learning
@@ -65,6 +74,7 @@ Beyond diversity theater, educational justice, community accountability
 
 **🚧 Phase 1: Foundation Building (Months 1-6)**
 - [x] Initial specification draft complete
+- [x] Core implementation tools developed
 - [ ] Community governance structure established  
 - [ ] Student advisory councils formed
 - [ ] Pilot program partnerships identified
@@ -74,11 +84,20 @@ Beyond diversity theater, educational justice, community accountability
 
 ## 🗣️ Join the Conversation
 
-### Recent Discussions
-- [Should AI ever provide complete homework solutions?](../../discussions)
-- [How do we measure authentic learning vs. test performance?](../../discussions)  
-- [Student data ownership: What does it really mean?](../../discussions)
-- [Dismantling vs. reforming: Where do we start?](../../discussions)
+We believe in democratic development - this specification only works if it truly serves those most impacted by educational AI.
+
+### Start Here
+- 💭 **[General Discussion](../../discussions)** - Share experiences, ask questions, propose ideas
+- 🐛 **[Report Issues](../../issues)** - Found a problem or have a specific improvement suggestion?
+- 📝 **[Feature Requests](../../issues/new?template=feature_request.md)** - Propose new tools or sections
+- 📚 **[Implementation Stories](../../discussions/categories/implementation-stories)** - Share how you're using these tools
+
+### Discussion Categories
+- **💡 [Ideas & Proposals](../../discussions/categories/ideas-and-proposals)** - Suggest improvements to the specification
+- **🏫 [Implementation Stories](../../discussions/categories/implementation-stories)** - Share experiences using these tools in real learning communities
+- **🤔 [Q&A](../../discussions/categories/q-a)** - Get help with implementation questions
+- **📊 [Research & Evidence](../../discussions/categories/research-and-evidence)** - Share relevant studies and data
+- **⚖️ [Justice & Equity](../../discussions/categories/justice-and-equity)** - Discuss how to better serve marginalized communities
 
 ### Ways to Contribute
 - 💭 **Share experiences** from your classroom, school, or learning community
@@ -86,6 +105,7 @@ Beyond diversity theater, educational justice, community accountability
 - 🔍 **Review proposals** and provide feedback on changes
 - 🌐 **Translate** materials to make them accessible to more communities
 - 📊 **Research** best practices and evidence for learning-centered AI
+- 🛠️ **Develop tools** that support the specification's implementation
 
 ## 📄 License
 
@@ -104,4 +124,4 @@ This specification was inspired by:
 
 **Learning is change. Let's change how AI serves learning.**
 
-*Questions? Ideas? [Start a discussion](../../discussions) or [open an issue](../../issues).*
+*Questions? Ideas? [Start a discussion](../../discussions) or [open an issue](../../issues)*
