@@ -42,6 +42,18 @@
             overflow: hidden;
         }
 
+        .slide.compact {
+            height: 70vh;
+        }
+
+        .slide.medium {
+            height: 80vh;
+        }
+
+        .slide.large {
+            height: 90vh;
+        }
+
         .slide.active {
             display: block;
             animation: slideIn 0.6s ease-out;
@@ -202,28 +214,33 @@
             bottom: 30px;
             left: 50%;
             transform: translateX(-50%);
-            background: rgba(255, 255, 255, 0.2);
+            background: rgba(45, 55, 72, 0.95);
             border-radius: 50px;
             padding: 15px 25px;
             backdrop-filter: blur(10px);
             display: flex;
             align-items: center;
             gap: 20px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
         }
 
         .nav-btn {
-            background: rgba(255, 255, 255, 0.3);
+            background: rgba(255, 255, 255, 0.9);
             border: none;
-            color: white;
-            padding: 10px 20px;
+            color: #2d3748;
+            padding: 12px 24px;
             border-radius: 25px;
             cursor: pointer;
             font-weight: 600;
+            font-size: 0.95rem;
             transition: all 0.3s ease;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
         }
 
         .nav-btn:hover {
-            background: rgba(255, 255, 255, 0.5);
+            background: #ffffff;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
         }
 
         .slide-counter {
@@ -395,7 +412,7 @@
 <body>
     <div class="slideshow-container">
         <!-- Slide 1: Title -->
-        <div class="slide active">
+        <div class="slide active compact">
             <div class="title-slide">
                 <h1>Educational Model Spec</h1>
                 <p class="subtitle">AI in education that prioritizes human learning, teacher empowerment, and student agency over test outcomes</p>
@@ -407,7 +424,7 @@
         </div>
 
         <!-- Slide 2: The Problem -->
-        <div class="slide">
+        <div class="slide large">
             <h2>🚨 The Problem with Current Educational AI</h2>
             <p>Educational AI today often <span class="highlight">reinforces the very systems we need to transform</span></p>
             
@@ -440,7 +457,7 @@
         </div>
 
         <!-- Slide 3: Our Alternative Vision -->
-        <div class="slide">
+        <div class="slide medium">
             <h2>✨ Our Alternative Vision</h2>
             <div class="two-column">
                 <div>
@@ -463,7 +480,7 @@
         </div>
 
         <!-- Slide 4: What Makes This Different -->
-        <div class="slide">
+        <div class="slide medium">
             <h2>🌟 What Makes the Educational Model Spec Different</h2>
             <div class="stats">
                 <div class="stat">
@@ -501,7 +518,7 @@
         </div>
 
         <!-- Slide 5: Core Principles -->
-        <div class="slide">
+        <div class="slide large">
             <h2>🏛️ Eight Core Principles</h2>
             <div class="principles-grid">
                 <div class="card">
@@ -540,7 +557,7 @@
         </div>
 
         <!-- Slide 6: Practical Implementation Tools -->
-        <div class="slide">
+        <div class="slide medium">
             <h2>🛠️ Ready-to-Use Implementation Tools</h2>
             <p>Transform vision into action with concrete, tested resources</p>
             
@@ -573,7 +590,7 @@
         </div>
 
         <!-- Slide 7: AI Guardrails Example -->
-        <div class="slide">
+        <div class="slide large">
             <h2>🛡️ AI Guardrails in Action</h2>
             <h3>The Core Question: Does this make the student a stronger thinker?</h3>
             
@@ -611,7 +628,7 @@
         </div>
 
         <!-- Slide 8: Student Data Ownership -->
-        <div class="slide">
+        <div class="slide medium">
             <h2>🎓 Student Data Ownership & Meaningful Portfolios</h2>
             <h3>Every student graduates with their learning story, not just test scores</h3>
             
@@ -642,7 +659,7 @@
         </div>
 
         <!-- Slide 9: Justice & Equity Focus -->
-        <div class="slide">
+        <div class="slide medium">
             <h2>⚖️ Dismantling Systems of Oppression</h2>
             <h3>Beyond diversity theater - authentic liberation work</h3>
             
@@ -671,7 +688,7 @@
         </div>
 
         <!-- Slide 10: Implementation Roadmap -->
-        <div class="slide">
+        <div class="slide medium">
             <h2>🗺️ Implementation Roadmap</h2>
             
             <div class="roadmap">
@@ -707,7 +724,7 @@
         </div>
 
         <!-- Slide 11: Why This Matters Now -->
-        <div class="slide">
+        <div class="slide medium">
             <h2>⏰ Why This Matters Now</h2>
             
             <div class="two-column">
@@ -737,7 +754,7 @@
         </div>
 
         <!-- Slide 12: Building the Evidence Base -->
-        <div class="slide">
+        <div class="slide large">
             <h2>🔬 Building the Evidence Base</h2>
             <h3>Ready for systematic implementation and data collection</h3>
             
@@ -783,7 +800,7 @@
         </div>
 
         <!-- Slide 13: Call to Action -->
-        <div class="slide">
+        <div class="slide medium">
             <h2>🚀 Join the Movement</h2>
             <h3>This is not just about better AI—it's about building the educational system our children deserve</h3>
             
