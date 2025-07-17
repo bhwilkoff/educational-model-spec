@@ -20,8 +20,8 @@ Current educational AI often reinforces the very systems we need to transform:
 - **Test-outcome obsession** over genuine understanding
 - **Individual performance** over collaborative learning  
 - **Consumption of content** over creation of meaning
-- **Efficiency over authenticity** in learning experiences
-- **Standardization over personalization** of learning paths
+- **Efficiency** over authenticity in learning experiences
+- **Standardization** over personalization of learning paths
 
 ### Our Alternative Vision
 
@@ -38,19 +38,19 @@ We envision AI that serves as a **learning catalyst**—sparking and acceleratin
 
 **This document functions as executable policy, not just documentation.** Like the source code for a program, every principle in this specification can be compiled into concrete practices, tested against real outcomes, and debugged through community feedback.
 
-### How This Spec Works
+## How This Spec Works
 
-**Human Alignment First**: This specification serves as a "trust anchor" that helps communities align around shared values before building AI systems. When AI behavior doesn't match the spec, it's a bug to be fixed, not a feature to accept.
+**Learning Community Agreement**: Like a classroom agreement, this specification helps communities align on shared values before bringing AI into learning spaces. But unlike a typical policy document, this works as **direct instructions for AI systems** - when AI behavior doesn't match our specification, it's a bug to be fixed, not something we just accept.
 
-**Executable Principles**: Each section contains principles that can be implemented through:
-- Prompt engineering (via our AI Guardrails Prompt Template)
-- Assessment rubrics (via our Thinking Engagement Rubrics)  
-- Community protocols (via our governance tools)
-- Policy frameworks (via our implementation guides)
+**Executable Principles**: Each section doesn't just state values - it translates into **actual AI behavior and classroom tools**:
+- Prompt templates that program any AI to follow our learning principles
+- Assessment rubrics that students can use to evaluate AI interactions  
+- Governance protocols that give communities real power over AI decisions
+- Implementation guides that turn values into systematic practice
 
-**Democratic Compilation**: Unlike corporate AI specifications written by technologists alone, this spec is "compiled" through democratic participation. Community feedback creates "compilation errors" that improve the specification's clarity and effectiveness.
+**Community-Driven Development**: Unlike corporate AI specifications written by technologists alone, this spec evolves through **collaborative refinement** - like how the best curriculum develops. When teachers, students, and families report what's working (or not), their feedback becomes "code updates" that improve how the specification guides AI behavior.
 
-**Versioned Evolution**: Each clause has a unique identifier (EMS-XXX-##) that enables precise discussion, amendment, and tracking of changes over time.
+**Learning from Experience**: Each principle has a unique reference (like EMS-AGR-02) so we can have precise conversations about what needs to change. When someone says "the AI guardrails in section EMS-AGR-02 aren't working in my 5th grade classroom," we know exactly which **AI instructions** to adjust. This creates a direct path from classroom experience to improving how AI systems actually behave - like how good teachers refine their methods based on what works with real students.
 
 ### Success Criteria Framework
 
