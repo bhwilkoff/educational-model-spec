@@ -32,6 +32,7 @@
             width: 90%;
             max-width: 1200px;
             height: 85vh;
+            max-height: calc(100vh - 120px);
             background: rgba(255, 255, 255, 0.95);
             border-radius: 20px;
             padding: 40px;
@@ -39,19 +40,23 @@
             box-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
             backdrop-filter: blur(10px);
             position: relative;
-            overflow: hidden;
+            overflow-y: auto;
+            overflow-x: hidden;
         }
 
         .slide.compact {
             height: 70vh;
+            max-height: calc(100vh - 120px);
         }
 
         .slide.medium {
             height: 80vh;
+            max-height: calc(100vh - 120px);
         }
 
         .slide.large {
             height: 90vh;
+            max-height: calc(100vh - 120px);
         }
 
         .slide.active {
@@ -400,12 +405,184 @@
         }
 
         /* Responsive adjustments */
-        @media (max-width: 1024px) {
+        @media (max-width: 1200px) {
+            .slide {
+                width: 95%;
+                padding: 35px;
+            }
             .slide h1 { font-size: 2.4rem; }
             .slide h2 { font-size: 1.8rem; }
+            .slide h3 { font-size: 1.3rem; }
+            .slide p { font-size: 1rem; }
             .principles-grid { grid-template-columns: repeat(2, 1fr); }
-            .problem-grid { grid-template-columns: repeat(2, 1fr); }
             .roadmap { grid-template-columns: repeat(2, 1fr); }
+        }
+
+        @media (max-width: 1024px) {
+            .slide {
+                width: 95%;
+                padding: 30px;
+                height: auto;
+                min-height: 70vh;
+                max-height: calc(100vh - 100px);
+            }
+            .slide.compact, .slide.medium, .slide.large {
+                height: auto;
+                min-height: 70vh;
+                max-height: calc(100vh - 100px);
+            }
+            .slide h1 { font-size: 2.2rem; }
+            .slide h2 { font-size: 1.7rem; }
+            .slide h3 { font-size: 1.2rem; }
+            .slide p { font-size: 0.95rem; }
+            .problem-grid { grid-template-columns: repeat(2, 1fr); }
+            .solution-grid { grid-template-columns: 1fr; }
+            .tools-grid { grid-template-columns: 1fr; }
+            .evidence-grid { grid-template-columns: 1fr; }
+            .two-column { 
+                grid-template-columns: 1fr; 
+                gap: 20px;
+            }
+            .stat-number { font-size: 2rem; }
+            .quote { font-size: 1.1rem; }
+        }
+
+        @media (max-width: 768px) {
+            .slideshow-container {
+                padding: 10px;
+            }
+            .slide {
+                width: 98%;
+                padding: 25px;
+                border-radius: 15px;
+                height: auto;
+                min-height: 75vh;
+                max-height: calc(100vh - 80px);
+            }
+            .slide.compact, .slide.medium, .slide.large {
+                height: auto;
+                min-height: 75vh;
+                max-height: calc(100vh - 80px);
+            }
+            .slide h1 { font-size: 1.9rem; }
+            .slide h2 { font-size: 1.5rem; }
+            .slide h3 { font-size: 1.1rem; }
+            .slide p { font-size: 0.9rem; }
+            .problem-grid, .principles-grid, .roadmap { 
+                grid-template-columns: 1fr; 
+                gap: 12px;
+            }
+            .stats { 
+                flex-direction: column; 
+                gap: 20px;
+                text-align: center;
+            }
+            .card {
+                padding: 15px;
+            }
+            .card h4 { font-size: 1rem; }
+            .card p { font-size: 0.85rem; }
+            .bullet-points li { font-size: 0.9rem; }
+            .cta {
+                padding: 12px 25px;
+                font-size: 1rem;
+                margin: 10px 5px;
+                display: block;
+                text-align: center;
+            }
+            .navigation {
+                bottom: 15px;
+                padding: 10px 20px;
+            }
+            .nav-btn {
+                padding: 8px 16px;
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .slide {
+                width: 98%;
+                padding: 20px;
+                height: auto;
+                min-height: 80vh;
+                max-height: calc(100vh - 60px);
+            }
+            .slide.compact, .slide.medium, .slide.large {
+                height: auto;
+                min-height: 80vh;
+                max-height: calc(100vh - 60px);
+            }
+            .slide h1 { font-size: 1.6rem; }
+            .slide h2 { font-size: 1.3rem; }
+            .slide h3 { font-size: 1rem; }
+            .slide p { font-size: 0.85rem; }
+            .title-slide h1 { font-size: 2rem; }
+            .title-slide .subtitle { font-size: 1.1rem; }
+            .title-slide .quote { font-size: 1rem; }
+            .title-slide .tagline { font-size: 0.95rem; }
+            .quote { font-size: 1rem; padding: 15px; }
+            .stat-number { font-size: 1.5rem; }
+            .stat-label { font-size: 0.9rem; }
+            .emoji { font-size: 1rem; }
+            .tool-icon { font-size: 1.5rem; }
+            .roadmap-number { 
+                width: 30px; 
+                height: 30px; 
+                font-size: 0.9rem; 
+            }
+            .navigation {
+                bottom: 10px;
+                padding: 8px 15px;
+                gap: 15px;
+            }
+            .nav-btn {
+                padding: 6px 12px;
+                font-size: 0.8rem;
+            }
+            .slide-counter {
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (max-width: 320px) {
+            .slide {
+                padding: 15px;
+                height: auto;
+                min-height: 85vh;
+                max-height: calc(100vh - 40px);
+            }
+            .slide.compact, .slide.medium, .slide.large {
+                height: auto;
+                min-height: 85vh;
+                max-height: calc(100vh - 40px);
+            }
+            .slide h1 { font-size: 1.4rem; }
+            .slide h2 { font-size: 1.2rem; }
+            .title-slide h1 { font-size: 1.7rem; }
+            .cta {
+                font-size: 0.9rem;
+                padding: 10px 20px;
+            }
+        }
+
+        /* Custom scrollbar for slides */
+        .slide::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .slide::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.1);
+            border-radius: 3px;
+        }
+
+        .slide::-webkit-scrollbar-thumb {
+            background: rgba(102, 126, 234, 0.5);
+            border-radius: 3px;
+        }
+
+        .slide::-webkit-scrollbar-thumb:hover {
+            background: rgba(102, 126, 234, 0.7);
         }
     </style>
 </head>
