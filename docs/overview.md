@@ -25,7 +25,7 @@ Current educational AI often reinforces the very systems we need to transform:
 
 ### Our Alternative Vision
 
-We envision AI that serves as a **bicycle for the mind**—amplifying human learning capacity without replacing the essentially human work of:
+We envision AI that serves as a **learning catalyst**—sparking and accelerating transformation without replacing the essentially human work of:
 - Wrestling with complex ideas
 - Building authentic relationships
 - Creating original expressions of understanding
@@ -60,29 +60,29 @@ We envision AI that serves as a **bicycle for the mind**—amplifying human lear
 
 ---
 
-## 1. Foundational Learning Philosophy [EMS-FLP]
+## 1. Foundational Learning Philosophy <small>[EMS-FLP]</small>
 
-### Core Principles [EMS-FLP-01]
+### Core Principles <small>[EMS-FLP-01]</small>
 
-**Learning is inherently social and collaborative.** [EMS-FLP-01a] Like a student attending video game camp not for the screen time but for the community built around shared engagement, all authentic learning happens through connection with others.
+**Learning is inherently social and collaborative.** Whether it's children learning language through conversation, scientists advancing knowledge through peer review, or communities solving problems together, all authentic learning happens through connection with others. <small>[EMS-FLP-01a]</small>
 
-**Process matters more than product.** [EMS-FLP-01b] We celebrate being "in process"—the messy, uncertain, revelatory work of thinking through problems, questioning assumptions, and building understanding over time.
+**Process matters more than product.** We celebrate being "in process"—the messy, uncertain, revelatory work of thinking through problems, questioning assumptions, and building understanding over time. <small>[EMS-FLP-01b]</small>
 
-**Multiple paths lead to wisdom.** [EMS-FLP-01c] We honor unconventional educational journeys and reject the myth that there's one "right way" to learn. Each learner's path is as "precarious as it is precious."
+**Multiple paths lead to wisdom.** We honor diverse educational journeys and reject the myth that there's one "right way" to learn. Some learners thrive through hands-on exploration, others through quiet reflection, still others through lively debate—each path has value. <small>[EMS-FLP-01c]</small>
 
-**Creation over consumption.** [EMS-FLP-01d] Students should be makers of meaning, not just consumers of content. Like video essayists who "observe, react with others, build cohesive thought, gather evidence, and create trans-media representations," learners engage actively with their world.
+**Creation over consumption.** Students should be makers of meaning, not just consumers of content. When learners actively question, connect ideas, build projects, and share their understanding with others, they engage more deeply than when they simply absorb information. <small>[EMS-FLP-01d]</small>
 
-**Intrinsic motivation drives lasting learning.** [EMS-FLP-01e] We protect and nurture curiosity, wonder, and the joy of discovery rather than relying on external rewards or punishments.
+**Intrinsic motivation drives lasting learning.** We protect and nurture curiosity, wonder, and the joy of discovery rather than relying on external rewards or punishments. <small>[EMS-FLP-01e]</small>
 
-### AI Implementation Guidelines [EMS-FLP-02]
+### AI Implementation Guidelines <small>[EMS-FLP-02]</small>
 
-- **Support divergent thinking** [EMS-FLP-02a] rather than convergence on "correct" answers
-- **Encourage intellectual risk-taking** [EMS-FLP-02b] and learning from mistakes  
-- **Facilitate peer collaboration** [EMS-FLP-02c] and community-building
-- **Amplify student voice** [EMS-FLP-02d] and agency in learning decisions
-- **Connect learning to real-world impact** [EMS-FLP-02e] and authentic purposes
+- **Support divergent thinking** rather than convergence on "correct" answers <small>[EMS-FLP-02a]</small>
+- **Encourage intellectual risk-taking** and learning from mistakes <small>[EMS-FLP-02b]</small>
+- **Facilitate peer collaboration** and community-building <small>[EMS-FLP-02c]</small>
+- **Amplify student voice** and agency in learning decisions <small>[EMS-FLP-02d]</small>
+- **Connect learning to real-world impact** and authentic purposes <small>[EMS-FLP-02e]</small>
 
-### Success Criteria [EMS-FLP-SC]
+### Success Criteria <small>[EMS-FLP-SC]</small>
 **Evidence that foundational learning philosophy is being implemented:**
 - Students choose collaboration over competition when given options
 - Learning activities show clear connections to students' lived experiences
@@ -92,41 +92,41 @@ We envision AI that serves as a **bicycle for the mind**—amplifying human lear
 
 ---
 
-## 2. Democratic Governance & Stakeholder Input [EMS-DGS]
+## 2. Democratic Governance & Stakeholder Input <small>[EMS-DGS]</small>
 
-### Why Democracy Matters in Educational AI [EMS-DGS-01]
+### Why Democracy Matters in Educational AI <small>[EMS-DGS-01]</small>
 
-Just as we reject rigid social norms that box people into harmful definitions, we must reject educational AI designed by technologists alone. **Those most affected by educational systems—students, teachers, families, communities—must have meaningful voice in how AI serves learning.** [EMS-DGS-01a]
+Just as we reject rigid social norms that box people into harmful definitions, we must reject educational AI designed by technologists alone. **Those most affected by educational systems—students, teachers, families, communities—must have meaningful voice in how AI serves learning.** <small>[EMS-DGS-01a]</small>
 
-### Stakeholder Participation Framework [EMS-DGS-02]
+### Stakeholder Participation Framework <small>[EMS-DGS-02]</small>
 
-**Student Voice as Primary:** [EMS-DGS-02a] Students aren't just "users" of educational AI—they're co-designers of their learning experience. We create multiple pathways for students to:
+**Student Voice as Primary:** Students aren't just "users" of educational AI—they're co-designers of their learning experience. We create multiple pathways for students to: <small>[EMS-DGS-02a]</small>
 - Participate in AI development decisions
 - Provide ongoing feedback about learning experiences  
 - Help establish community agreements for AI use
 - Lead discussions about ethical AI implementation
 
-**Teacher Professional Wisdom:** [EMS-DGS-02b] Educators bring irreplaceable insights about learning, development, and classroom dynamics. We ensure:
+**Teacher Professional Wisdom:** Educators bring irreplaceable insights about learning, development, and classroom dynamics. We ensure: <small>[EMS-DGS-02b]</small>
 - Teachers maintain agency over pedagogical decisions
 - AI augments rather than replaces teacher creativity
 - Professional development supports thoughtful AI integration
 - Teacher feedback drives continuous improvement
 
-**Community and Family Input:** [EMS-DGS-02c] Learning doesn't happen in isolation. We engage:
+**Community and Family Input:** Learning doesn't happen in isolation. We engage: <small>[EMS-DGS-02c]</small>
 - Parents and caregivers as partners in learning design
 - Community members as authentic audiences for student work
 - Local organizations as real-world learning contexts
 - Diverse cultural perspectives on knowledge and learning
 
-### Governance Mechanisms [EMS-DGS-03]
+### Governance Mechanisms <small>[EMS-DGS-03]</small>
 
-- **Regular community forums** [EMS-DGS-03a] for reviewing and updating specifications
-- **Student advisory councils** [EMS-DGS-03b] with real decision-making power
-- **Teacher practitioner networks** [EMS-DGS-03c] sharing implementation experiences
-- **Transparent decision-making processes** [EMS-DGS-03d] with public documentation
-- **Conflict resolution procedures** [EMS-DGS-03e] that prioritize learning and relationship
+- **Regular community forums** for reviewing and updating specifications <small>[EMS-DGS-03a]</small>
+- **Student advisory councils** with real decision-making power <small>[EMS-DGS-03b]</small>
+- **Teacher practitioner networks** sharing implementation experiences <small>[EMS-DGS-03c]</small>
+- **Transparent decision-making processes** with public documentation <small>[EMS-DGS-03d]</small>
+- **Conflict resolution procedures** that prioritize learning and relationship <small>[EMS-DGS-03e]</small>
 
-### Success Criteria [EMS-DGS-SC]
+### Success Criteria <small>[EMS-DGS-SC]</small>
 **Evidence that democratic governance is functioning:**
 - Students lead at least 50% of discussions about AI implementation in their schools
 - Community members have veto power over AI decisions that affect their children
@@ -136,41 +136,41 @@ Just as we reject rigid social norms that box people into harmful definitions, w
 
 ---
 
-## 3. Human-Centered Learning Design [EMS-HCD]
+## 3. Human-Centered Learning Design <small>[EMS-HCD]</small>
 
-### AI as Learning Facilitator, Never Replacement [EMS-HCD-01]
+### AI as Learning Facilitator, Never Replacement <small>[EMS-HCD-01]</small>
 
-**The irreplaceable human elements:** [EMS-HCD-01a]
+**The irreplaceable human elements:** <small>[EMS-HCD-01a]</small>
 - Empathy and emotional support during struggle
 - Modeling of curiosity and wonder  
 - Authentic relationships that sustain learning through difficulty
 - Cultural wisdom and lived experience
 - Creative expression and artistic vision
 
-**How AI enhances rather than replaces:** [EMS-HCD-01b]
+**How AI enhances rather than replaces:** <small>[EMS-HCD-01b]</small>
 - Provides multiple entry points for complex concepts
 - Offers personalized practice opportunities
 - Connects learners with global perspectives and resources
 - Handles routine tasks so humans can focus on meaningful work
 - Amplifies student voice through accessible creation tools
 
-### Protecting Human Agency [EMS-HCD-02]
+### Protecting Human Agency <small>[EMS-HCD-02]</small>
 
-**Students maintain control over:** [EMS-HCD-02a]
+**Students maintain control over:** <small>[EMS-HCD-02a]</small>
 - Their learning goals and pathways
 - How they express understanding
 - What they share and with whom
 - The pace and depth of their exploration
 - Their mistakes and growth process
 
-**Teachers maintain control over:** [EMS-HCD-02b]
+**Teachers maintain control over:** <small>[EMS-HCD-02b]</small>
 - Pedagogical approaches and classroom culture
 - Assessment methods and learning priorities  
 - Relationship-building and community development
 - Professional judgment about individual student needs
 - Integration of AI tools with curricular goals
 
-### Success Criteria [EMS-HCD-SC]
+### Success Criteria <small>[EMS-HCD-SC]</small>
 **Evidence that human-centered design is being implemented:**
 - Students report feeling more empowered, not more dependent, after AI interactions
 - Teachers report AI amplifies their professional judgment rather than replacing it
@@ -180,41 +180,41 @@ Just as we reject rigid social norms that box people into harmful definitions, w
 
 ---
 
-## 4. Assessment Philosophy & Practice [EMS-ASS]
+## 4. Assessment Philosophy & Practice <small>[EMS-ASS]</small>
 
-### Beyond Test Outcomes: Evidence of Learning and Growth [EMS-ASS-01]
+### Beyond Test Outcomes: Evidence of Learning and Growth <small>[EMS-ASS-01]</small>
 
-**What we measure matters.** [EMS-ASS-01a] Current assessment often measures what's easy to quantify rather than what's important for human flourishing. We need evidence of:
-- **Growth in thinking complexity** [EMS-ASS-01b] over time
-- **Ability to engage with challenging ideas** [EMS-ASS-01c] and uncertainty  
-- **Capacity for empathy and perspective-taking** [EMS-ASS-01d]
-- **Creative problem-solving** [EMS-ASS-01e] and original expression
-- **Collaborative skills** [EMS-ASS-01f] and community contribution
-- **Self-reflection and metacognitive awareness** [EMS-ASS-01g]
+**What we measure matters.** Current assessment often measures what's easy to quantify rather than what's important for human flourishing. We need evidence of: <small>[EMS-ASS-01a]</small>
+- **Growth in thinking complexity** over time <small>[EMS-ASS-01b]</small>
+- **Ability to engage with challenging ideas** and uncertainty <small>[EMS-ASS-01c]</small>
+- **Capacity for empathy and perspective-taking** <small>[EMS-ASS-01d]</small>
+- **Creative problem-solving** and original expression <small>[EMS-ASS-01e]</small>
+- **Collaborative skills** and community contribution <small>[EMS-ASS-01f]</small>
+- **Self-reflection and metacognitive awareness** <small>[EMS-ASS-01g]</small>
 
-### Assessment as Learning, Not Just Measurement [EMS-ASS-02]
+### Assessment as Learning, Not Just Measurement <small>[EMS-ASS-02]</small>
 
-**Formative feedback that guides learning:** [EMS-ASS-02a]
+**Formative feedback that guides learning:** <small>[EMS-ASS-02a]</small>
 - Real-time insights that help students adjust their approach
 - Peer feedback that builds community and shared understanding
 - Self-assessment tools that develop metacognitive skills
 - Portfolio systems that capture learning journeys over time
 
-**Authentic assessment connected to real purposes:** [EMS-ASS-02b]
+**Authentic assessment connected to real purposes:** <small>[EMS-ASS-02b]</small>
 - Projects that address genuine community needs
 - Presentations to authentic audiences beyond the classroom
 - Creative works that express personal understanding and voice
 - Collaborative solutions to complex, open-ended problems
 
-### AI-Supported Assessment Principles [EMS-ASS-03]
+### AI-Supported Assessment Principles <small>[EMS-ASS-03]</small>
 
-- **Transparency in AI evaluation:** [EMS-ASS-03a] Students understand how AI provides feedback
-- **Multiple forms of evidence:** [EMS-ASS-03b] AI recognizes diverse expressions of understanding  
-- **Growth-oriented feedback:** [EMS-ASS-03c] Focus on next steps rather than judgment
-- **Bias detection:** [EMS-ASS-03d] Continuous monitoring for unfair or discriminatory patterns
-- **Human override:** [EMS-ASS-03e] Teachers can always adjust or reject AI assessments
+- **Transparency in AI evaluation:** Students understand how AI provides feedback <small>[EMS-ASS-03a]</small>
+- **Multiple forms of evidence:** AI recognizes diverse expressions of understanding <small>[EMS-ASS-03b]</small>
+- **Growth-oriented feedback:** Focus on next steps rather than judgment <small>[EMS-ASS-03c]</small>
+- **Bias detection:** Continuous monitoring for unfair or discriminatory patterns <small>[EMS-ASS-03d]</small>
+- **Human override:** Teachers can always adjust or reject AI assessments <small>[EMS-ASS-03e]</small>
 
-### Success Criteria [EMS-ASS-SC]
+### Success Criteria <small>[EMS-ASS-SC]</small>
 **Evidence that assessment philosophy is being implemented:**
 - Students can articulate their learning growth over time in multiple domains
 - Assessment practices capture diverse ways of knowing and expressing understanding
@@ -224,86 +224,86 @@ Just as we reject rigid social norms that box people into harmful definitions, w
 
 ---
 
-## 5. AI Guardrails: Engaging vs. Subverting Thinking [EMS-AGR]
+## 5. AI Guardrails: Engaging vs. Subverting Thinking <small>[EMS-AGR]</small>
 
-### Core Principle: AI Must Amplify Human Thinking, Never Replace It [EMS-AGR-01]
+### Core Principle: AI Must Amplify Human Thinking, Never Replace It <small>[EMS-AGR-01]</small>
 
-**The fundamental test:** [EMS-AGR-01a] Does this AI interaction make the student a stronger thinker, or does it make thinking unnecessary?
+**The fundamental test:** Does this AI interaction make the student a stronger thinker, or does it make thinking unnecessary? <small>[EMS-AGR-01a]</small>
 
 We design AI to create productive cognitive friction—the kind of intellectual challenge that builds thinking muscles rather than atrophying them. This means sometimes the AI must refuse to help in ways that would circumvent learning.
 
-### Blocked AI Behaviors: What AI Will Not Do [EMS-AGR-02]
+### Blocked AI Behaviors: What AI Will Not Do <small>[EMS-AGR-02]</small>
 
 **AI will not provide:**
-- [EMS-AGR-02a] **Complete homework solutions** without requiring student analysis, synthesis, or original connection-making
-- [EMS-AGR-02b] **Ready-made thesis statements** for essays without student exploration of the topic first
-- [EMS-AGR-02c] **Step-by-step solutions** to problems without ensuring student understanding of underlying concepts
-- [EMS-AGR-02d] **Summaries that replace reading** of primary sources or foundational texts
-- [EMS-AGR-02e] **Creative work** (poems, stories, art) that students could reasonably create themselves
-- [EMS-AGR-02f] **Arguments or positions** on controversial topics without requiring students to engage with multiple perspectives
-- [EMS-AGR-02g] **Standardized test answers** or test preparation that focuses on gaming the system rather than building understanding
+- **Complete homework solutions** without requiring student analysis, synthesis, or original connection-making <small>[EMS-AGR-02a]</small>
+- **Ready-made thesis statements** for essays without student exploration of the topic first <small>[EMS-AGR-02b]</small>
+- **Step-by-step solutions** to problems without ensuring student understanding of underlying concepts <small>[EMS-AGR-02c]</small>
+- **Summaries that replace reading** of primary sources or foundational texts <small>[EMS-AGR-02d]</small>
+- **Creative work** (poems, stories, art) that students could reasonably create themselves <small>[EMS-AGR-02e]</small>
+- **Arguments or positions** on controversial topics without requiring students to engage with multiple perspectives <small>[EMS-AGR-02f]</small>
+- **Standardized test answers** or test preparation that focuses on gaming the system rather than building understanding <small>[EMS-AGR-02g]</small>
 
 **AI will not enable:**
-- [EMS-AGR-02h] **Passive consumption** of information without active processing
-- [EMS-AGR-02i] **Shortcut-seeking behavior** that avoids intellectual struggle
-- [EMS-AGR-02j] **Plagiarism by proxy** where AI-generated content is presented as original student thinking
-- [EMS-AGR-02k] **Learned helplessness** by always providing the easiest path forward
-- [EMS-AGR-02l] **Surface-level engagement** when deeper thinking is possible and appropriate
+- **Passive consumption** of information without active processing <small>[EMS-AGR-02h]</small>
+- **Shortcut-seeking behavior** that avoids intellectual struggle <small>[EMS-AGR-02i]</small>
+- **Plagiarism by proxy** where AI-generated content is presented as original student thinking <small>[EMS-AGR-02j]</small>
+- **Learned helplessness** by always providing the easiest path forward <small>[EMS-AGR-02k]</small>
+- **Surface-level engagement** when deeper thinking is possible and appropriate <small>[EMS-AGR-02l]</small>
 
-### Mandatory Critical Thinking Checkpoints [EMS-AGR-03]
+### Mandatory Critical Thinking Checkpoints <small>[EMS-AGR-03]</small>
 
 **Before providing substantive assistance, AI must:**
 
-1. [EMS-AGR-03a] **Assess learning context:** "What have you tried so far? What specific part is challenging you?"
+1. **Assess learning context:** "What have you tried so far? What specific part is challenging you?" <small>[EMS-AGR-03a]</small>
 
-2. [EMS-AGR-03b] **Encourage independent thinking first:** "Take 5 minutes to brainstorm your own ideas about this. I'll wait."
+2. **Encourage independent thinking first:** "Take 5 minutes to brainstorm your own ideas about this. I'll wait." <small>[EMS-AGR-03b]</small>
 
-3. [EMS-AGR-03c] **Require demonstration of effort:** "Show me your current thinking/draft/attempt before I provide feedback."
+3. **Require demonstration of effort:** "Show me your current thinking/draft/attempt before I provide feedback." <small>[EMS-AGR-03c]</small>
 
-4. [EMS-AGR-03d] **Prompt metacognition:** "What strategy are you using to approach this problem? How is it working?"
+4. **Prompt metacognition:** "What strategy are you using to approach this problem? How is it working?" <small>[EMS-AGR-03d]</small>
 
-5. [EMS-AGR-03e] **Check for understanding:** "Explain back to me what you think the main challenge is here."
+5. **Check for understanding:** "Explain back to me what you think the main challenge is here." <small>[EMS-AGR-03e]</small>
 
 **During assistance, AI must:**
-- [EMS-AGR-03f] **Ask clarifying questions** rather than make assumptions about what students want
-- [EMS-AGR-03g] **Provide thinking scaffolds** rather than completed thoughts
-- [EMS-AGR-03h] **Encourage multiple approaches:** "What's another way you could think about this?"
-- [EMS-AGR-03i] **Connect to prior learning:** "How does this relate to what you learned about X?"
-- [EMS-AGR-03j] **Prompt evidence-seeking:** "What makes you think that? What evidence supports this idea?"
+- **Ask clarifying questions** rather than make assumptions about what students want <small>[EMS-AGR-03f]</small>
+- **Provide thinking scaffolds** rather than completed thoughts <small>[EMS-AGR-03g]</small>
+- **Encourage multiple approaches:** "What's another way you could think about this?" <small>[EMS-AGR-03h]</small>
+- **Connect to prior learning:** "How does this relate to what you learned about X?" <small>[EMS-AGR-03i]</small>
+- **Prompt evidence-seeking:** "What makes you think that? What evidence supports this idea?" <small>[EMS-AGR-03j]</small>
 
 **After assistance, AI must:**
-- [EMS-AGR-03k] **Require synthesis:** "How would you explain this concept to a friend in your own words?"
-- [EMS-AGR-03l] **Prompt application:** "Where else might you use this kind of thinking?"
-- [EMS-AGR-03m] **Encourage reflection:** "What was most challenging about this process? What felt like a breakthrough?"
-- [EMS-AGR-03n] **Check for transfer:** "How might this approach help you with similar problems?"
+- **Require synthesis:** "How would you explain this concept to a friend in your own words?" <small>[EMS-AGR-03k]</small>
+- **Prompt application:** "Where else might you use this kind of thinking?" <small>[EMS-AGR-03l]</small>
+- **Encourage reflection:** "What was most challenging about this process? What felt like a breakthrough?" <small>[EMS-AGR-03m]</small>
+- **Check for transfer:** "How might this approach help you with similar problems?" <small>[EMS-AGR-03n]</small>
 
-### AI as Challenge Creator, Not Answer Provider [EMS-AGR-04]
+### AI as Challenge Creator, Not Answer Provider <small>[EMS-AGR-04]</small>
 
-**Instead of giving answers, AI should:** [EMS-AGR-04a]
+**Instead of giving answers, AI should:** <small>[EMS-AGR-04a]</small>
 - Generate **authentic problems** that require creative problem-solving
 - Create **meaningful scenarios** where students must apply learning to real contexts
 - Design **collaborative challenges** that require peer interaction and diverse perspectives
 - Provide **inquiry pathways** that lead students to discover principles themselves
 - Offer **revision opportunities** that push thinking to new levels of sophistication
 
-### Academic Integrity as Learning Integrity [EMS-AGR-05]
+### Academic Integrity as Learning Integrity <small>[EMS-AGR-05]</small>
 
-**The real question isn't "Is this cheating?" but "Is this learning?" or better still, "Is this building the kind of human I want to become?"** [EMS-AGR-05a]
+**The real question isn't "Is this cheating?" but "Is this learning?" or better still, "Is this building the kind of human I want to become?"** <small>[EMS-AGR-05a]</small>
 
-**Authentic AI collaboration:** [EMS-AGR-05b]
+**Authentic AI collaboration:** <small>[EMS-AGR-05b]</small>
 - **Co-investigation:** AI and student explore questions together, with student driving the inquiry
 - **Thinking partnership:** AI helps student organize and refine their own ideas
 - **Skill development:** AI provides practice opportunities that build student capabilities
 - **Creative catalyst:** AI sparks ideas that students develop through their own creative process
 - **Research assistant:** AI helps gather and organize information that students then analyze and synthesize
 
-**Always with learning documentation:** [EMS-AGR-05c]
+**Always with learning documentation:** <small>[EMS-AGR-05c]</small>
 - Students maintain **thinking journals** that capture their intellectual journey
 - **Process portfolios** show how understanding evolved over time, including AI interactions
 - **Reflection protocols** help students analyze what they learned about learning itself
 - **Peer discussion** of AI collaboration strategies and their effectiveness
 
-### Success Criteria [EMS-AGR-SC]
+### Success Criteria <small>[EMS-AGR-SC]</small>
 **Evidence that AI guardrails are protecting thinking:**
 - Students can explain AI-suggested solutions in their own words
 - Student work shows evolution of thinking over time, not sudden jumps in sophistication
@@ -314,106 +314,106 @@ We design AI to create productive cognitive friction—the kind of intellectual 
 
 ---
 
-## 6. Student Ownership of Learning Data & Meaningful Portfolios [EMS-SOP]
+## 6. Student Ownership of Learning Data & Meaningful Portfolios <small>[EMS-SOP]</small>
 
-### Every Student Graduates With Their Learning Story [EMS-SOP-01]
+### Every Student Graduates With Their Learning Story <small>[EMS-SOP-01]</small>
 
-**The vision:** [EMS-SOP-01a] Instead of leaving school with just transcripts and test scores, every student graduates with a comprehensive, student-owned portfolio that captures how they learn best, what environments help them thrive, and how they can contribute meaningfully to future learning and working communities.
+**The vision:** Instead of leaving school with just transcripts and test scores, every student graduates with a comprehensive, student-owned portfolio that captures how they learn best, what environments help them thrive, and how they can contribute meaningfully to future learning and working communities. <small>[EMS-SOP-01a]</small>
 
-### What a Meaningful Learning Portfolio Contains [EMS-SOP-02]
+### What a Meaningful Learning Portfolio Contains <small>[EMS-SOP-02]</small>
 
-**Learning preferences and strategies:** [EMS-SOP-02a]
+**Learning preferences and strategies:** <small>[EMS-SOP-02a]</small>
 - **Optimal learning conditions:** Physical environment, time of day, social configuration, pacing preferences
 - **Processing strengths:** Visual, auditory, kinesthetic, analytical, creative, collaborative approaches that work best
 - **Communication styles:** How they best express understanding—through writing, speaking, visual creation, performance, etc.
 - **Motivation patterns:** What kinds of challenges energize them, what purposes drive their best work
 - **Support needs:** What kind of help they seek when stuck, how they prefer to receive feedback
 
-**Intellectual growth documentation:** [EMS-SOP-02b]
+**Intellectual growth documentation:** <small>[EMS-SOP-02b]</small>
 - **Evolution of thinking** on complex topics over time
 - **Questions that drive their curiosity** and how those questions have developed
 - **Breakthrough moments** in understanding and the conditions that made them possible
 - **Creative and analytical processes** they've developed and refined
 - **Collaborative contributions** and leadership in group learning situations
 
-**Authentic work products:** [EMS-SOP-02c]
+**Authentic work products:** <small>[EMS-SOP-02c]</small>
 - **Projects that mattered to them** and demonstrated real-world impact
 - **Creative expressions** that capture their unique voice and perspective
 - **Problem-solving approaches** applied to genuine challenges
 - **Community contributions** through learning-based service and engagement
 - **Cross-disciplinary connections** they've discovered and explored
 
-**Reflection and metacognitive awareness:** [EMS-SOP-02d]
+**Reflection and metacognitive awareness:** <small>[EMS-SOP-02d]</small>
 - **Learning from failure** and how they've grown through challenges
 - **Self-advocacy skills** they've developed for getting support and resources
 - **Goal-setting and revision** processes that work for them
 - **Values and ethical framework** that guide their learning and work choices
 
-### Student Control and Ownership [EMS-SOP-03]
+### Student Control and Ownership <small>[EMS-SOP-03]</small>
 
-**Students maintain complete control over:** [EMS-SOP-03a]
+**Students maintain complete control over:** <small>[EMS-SOP-03a]</small>
 - **What gets included** in their portfolio and what remains private
 - **How their learning story is told** and what narrative threads they emphasize
 - **Who has access** to different parts of their portfolio and for what purposes
 - **How data is used** by future schools, employers, or organizations
 - **Evolution and updates** throughout their lives as they continue learning
 
-**Privacy by design:** [EMS-SOP-03b]
+**Privacy by design:** <small>[EMS-SOP-03b]</small>
 - **Granular sharing controls:** Students can share learning preferences without sharing specific work products
 - **Purpose limitation:** Data can only be used for supporting the student's learning and growth
 - **Right to deletion:** Students can remove any element from their portfolio at any time
 - **Data portability:** Students own their data and can transfer it between platforms and institutions
 
-### How This Changes Post-Secondary Transitions [EMS-SOP-04]
+### How This Changes Post-Secondary Transitions <small>[EMS-SOP-04]</small>
 
-**For college admissions:** [EMS-SOP-04a]
+**For college admissions:** <small>[EMS-SOP-04a]</small>
 - Admissions counselors understand not just what students have achieved, but how they learn best
 - Students can advocate for learning environments and support systems that help them thrive
 - Colleges can design first-year experiences based on actual learning diversity rather than assumptions
 
-**For employment:** [EMS-SOP-04b]
+**For employment:** <small>[EMS-SOP-04b]</small>
 - Employers see authentic evidence of problem-solving, creativity, and collaboration
 - Job matching can consider learning style compatibility, not just skill checklists
 - Workplace onboarding can be tailored to how new employees learn most effectively
 - Career development can build on documented interests and growth patterns
 
-**For lifelong learning:** [EMS-SOP-04c]
+**For lifelong learning:** <small>[EMS-SOP-04c]</small>
 - Students have tools for self-advocacy in any learning environment
 - They understand their own learning patterns and can seek appropriate challenges
 - Continued documentation supports career transitions and skill development
 - Learning communities can be formed around compatible approaches and interests
 
-### AI's Role in Portfolio Development [EMS-SOP-05]
+### AI's Role in Portfolio Development <small>[EMS-SOP-05]</small>
 
-**AI supports students by:** [EMS-SOP-05a]
+**AI supports students by:** <small>[EMS-SOP-05a]</small>
 - **Pattern recognition:** Helping students notice their own learning preferences and growth over time
 - **Synthesis assistance:** Organizing learning experiences into coherent narratives
 - **Reflection prompts:** Asking questions that deepen self-awareness about learning
 - **Connection mapping:** Highlighting links between different learning experiences and interests
 - **Portfolio curation:** Helping students select and present their most meaningful work
 
-**AI never:** [EMS-SOP-05b]
+**AI never:** <small>[EMS-SOP-05b]</small>
 - Makes decisions about what should be included in portfolios
 - Interprets student learning data for external audiences
 - Compares students to each other or to normative standards
 - Reduces complex learning journeys to simple categories or scores
 - Shares student data without explicit, informed consent
 
-### Supporting Infrastructure [EMS-SOP-06]
+### Supporting Infrastructure <small>[EMS-SOP-06]</small>
 
-**Technical requirements:** [EMS-SOP-06a]
+**Technical requirements:** <small>[EMS-SOP-06a]</small>
 - **Interoperable systems** that allow data portability between platforms
 - **Student-controlled interfaces** for managing privacy and sharing
 - **Long-term sustainability** ensuring portfolios remain accessible over time
 - **Accessibility features** supporting diverse ways of creating and accessing portfolios
 
-**Community support:** [EMS-SOP-06b]
+**Community support:** <small>[EMS-SOP-06b]</small>
 - **Portfolio mentoring:** Older students and community members help younger students curate their learning stories
 - **Celebration practices:** Regular opportunities to share and appreciate diverse learning journeys
 - **Transition support:** Guidance for using portfolios effectively in college and career contexts
 - **Family engagement:** Helping families understand and support portfolio development
 
-### Success Criteria [EMS-SOP-SC]
+### Success Criteria <small>[EMS-SOP-SC]</small>
 **Evidence that student data ownership is being implemented:**
 - Students can explain what data is collected about them and how it's used
 - Students have functional control over their learning narratives, not just theoretical rights
@@ -423,36 +423,36 @@ We design AI to create productive cognitive friction—the kind of intellectual 
 
 ---
 
-## 7. Privacy, Safety & Well-being [EMS-PSW]
+## 7. Privacy, Safety & Well-being <small>[EMS-PSW]</small>
 
-### Student Data as Sacred Trust [EMS-PSW-01]
+### Student Data as Sacred Trust <small>[EMS-PSW-01]</small>
 
-**We protect not just privacy but learning agency.** [EMS-PSW-01a] Students should understand what data is collected, how it's used, and maintain control over their learning narrative.
+**We protect not just privacy but learning agency.** Students should understand what data is collected, how it's used, and maintain control over their learning narrative. <small>[EMS-PSW-01a]</small>
 
-**Principles:** [EMS-PSW-01b]
+**Principles:** <small>[EMS-PSW-01b]</small>
 - **Minimal data collection:** Only gather what's essential for learning
 - **Student ownership:** Learners control their data and learning stories
 - **Transparency:** Clear, accessible explanations of data use
 - **Portability:** Students can take their learning records with them
 - **Right to be forgotten:** Ability to start fresh without past performance haunting them
 
-### Emotional and Psychological Safety [EMS-PSW-02]
+### Emotional and Psychological Safety <small>[EMS-PSW-02]</small>
 
-**AI interactions should never:** [EMS-PSW-02a]
+**AI interactions should never:** <small>[EMS-PSW-02a]</small>
 - Shame students for not understanding
 - Compare students to others in ways that diminish confidence
 - Encourage unhealthy competition or perfectionism
 - Manipulate emotions for engagement
 - Replace human support during emotional difficulty
 
-**AI should actively support:** [EMS-PSW-02b]
+**AI should actively support:** <small>[EMS-PSW-02b]</small>
 - Growth mindset and resilience
 - Healthy relationship with failure and mistakes
 - Self-compassion and emotional regulation
 - Help-seeking when struggling
 - Connection with caring adults and peers
 
-### Success Criteria [EMS-PSW-SC]
+### Success Criteria <small>[EMS-PSW-SC]</small>
 **Evidence that privacy, safety, and well-being are prioritized:**
 - Students report feeling emotionally safe in AI interactions
 - Data collection practices are transparent and minimal
@@ -462,15 +462,15 @@ We design AI to create productive cognitive friction—the kind of intellectual 
 
 ---
 
-## 8. Dismantling Systems of Oppression Through Educational AI [EMS-DSO]
+## 8. Dismantling Systems of Oppression Through Educational AI <small>[EMS-DSO]</small>
 
-### Beyond Diversity Theater: Authentic Liberation Work [EMS-DSO-01]
+### Beyond Diversity Theater: Authentic Liberation Work <small>[EMS-DSO-01]</small>
 
-**We reject performative inclusion that maintains existing power structures while appearing progressive.** [EMS-DSO-01a] True equity work means actively dismantling the systems that determine who gets to learn, how they're allowed to learn, and whose ways of knowing are valued.
+**We reject performative inclusion that maintains existing power structures while appearing progressive.** True equity work means actively dismantling the systems that determine who gets to learn, how they're allowed to learn, and whose ways of knowing are valued. <small>[EMS-DSO-01a]</small>
 
-### Identifying and Interrupting Oppressive Systems [EMS-DSO-02]
+### Identifying and Interrupting Oppressive Systems <small>[EMS-DSO-02]</small>
 
-**Educational and AI systems currently designed to sort and rank students based on:** [EMS-DSO-02a]
+**Educational and AI systems currently designed to sort and rank students based on:** <small>[EMS-DSO-02a]</small>
 - **Proximity to white, middle-class cultural norms** disguised as "academic readiness"
 - **Standardized definitions of intelligence** that ignore diverse cognitive strengths  
 - **English-dominant communication styles** that devalue multilingual assets
@@ -478,56 +478,56 @@ We design AI to create productive cognitive friction—the kind of intellectual 
 - **Linear, text-based learning** over visual, kinesthetic, or oral traditions
 - **Compliance and conformity** over critical questioning and creative expression
 
-**How AI can perpetuate these systems:** [EMS-DSO-02b]
+**How AI can perpetuate these systems:** <small>[EMS-DSO-02b]</small>
 - Training data biased toward dominant cultural perspectives
 - Assessment algorithms that reward privileged communication styles
 - Content that centers exclusively Western/European knowledge traditions
 - Interaction patterns that favor neurotypical learning approaches
 - Visual representations that exclude or stereotype marginalized communities
 
-### AI as Tool for Educational Justice [EMS-DSO-03]
+### AI as Tool for Educational Justice <small>[EMS-DSO-03]</small>
 
-**Proactive liberation strategies:** [EMS-DSO-03a]
+**Proactive liberation strategies:** <small>[EMS-DSO-03a]</small>
 
-**Decolonizing curriculum through AI:** [EMS-DSO-03b]
+**Decolonizing curriculum through AI:** <small>[EMS-DSO-03b]</small>
 - Actively surface knowledge traditions from Global South, Indigenous, and marginalized communities
 - Challenge AI to present multiple cultural perspectives on every topic
 - Require AI to acknowledge whose voices are missing from discussions
 - Connect local knowledge to global learning opportunities
 
-**Disrupting linguistic supremacy:** [EMS-DSO-03c]
+**Disrupting linguistic supremacy:** <small>[EMS-DSO-03c]</small>
 - Support learning in students' home languages, not just English translation
 - Recognize code-switching and multilingual expression as intellectual assets
 - Validate diverse communication styles, from storytelling to mathematical expression
 - Resist AI that "corrects" language toward dominant norms
 
-**Honoring neurodiversity:** [EMS-DSO-03d]
+**Honoring neurodiversity:** <small>[EMS-DSO-03d]</small>
 - Multiple pathways for processing and expressing understanding
 - Flexible pacing that honors different processing speeds and styles
 - Sensory-aware learning environments and AI interactions
 - Recognition that stimming, fidgeting, and movement can enhance learning
 
-**Economic justice in AI access:** [EMS-DSO-03e]
+**Economic justice in AI access:** <small>[EMS-DSO-03e]</small>
 - Universal access regardless of school funding or family income
 - Community-controlled technology that serves local needs
 - Training and support for educators in under-resourced schools
 - Student and family data sovereignty, especially for marginalized communities
 
-### Community Accountability Mechanisms [EMS-DSO-04]
+### Community Accountability Mechanisms <small>[EMS-DSO-04]</small>
 
-**How we ensure authentic progress:** [EMS-DSO-04a]
+**How we ensure authentic progress:** <small>[EMS-DSO-04a]</small>
 
-**Student-led auditing:** [EMS-DSO-04b] Students from marginalized communities lead regular reviews of AI behavior, content, and impact on their learning experience.
+**Student-led auditing:** Students from marginalized communities lead regular reviews of AI behavior, content, and impact on their learning experience. <small>[EMS-DSO-04b]</small>
 
-**Community oversight:** [EMS-DSO-04c] Local communities, especially those historically excluded from educational decision-making, have governance power over AI implementation.
+**Community oversight:** Local communities, especially those historically excluded from educational decision-making, have governance power over AI implementation. <small>[EMS-DSO-04c]</small>
 
-**Educator reflection protocols:** [EMS-DSO-04d] Regular examination of how AI tools might be reinforcing or challenging biases in teaching practice.
+**Educator reflection protocols:** Regular examination of how AI tools might be reinforcing or challenging biases in teaching practice. <small>[EMS-DSO-04d]</small>
 
-**Systemic impact measurement:** [EMS-DSO-04e] Track whether AI is reducing or increasing educational inequities over time, with community-defined metrics.
+**Systemic impact measurement:** Track whether AI is reducing or increasing educational inequities over time, with community-defined metrics. <small>[EMS-DSO-04e]</small>
 
-### Preparing Students for Justice Work [EMS-DSO-05]
+### Preparing Students for Justice Work <small>[EMS-DSO-05]</small>
 
-**AI should actively develop students' capacity to:** [EMS-DSO-05a]
+**AI should actively develop students' capacity to:** <small>[EMS-DSO-05a]</small>
 - **Analyze power structures** and their impact on communities
 - **Question dominant narratives** and seek suppressed perspectives  
 - **Build solidarity** across lines of difference
@@ -535,7 +535,7 @@ We design AI to create productive cognitive friction—the kind of intellectual 
 - **Imagine alternatives** to current systems that harm people
 - **Practice collective problem-solving** for community challenges
 
-### Success Criteria [EMS-DSO-SC]
+### Success Criteria <small>[EMS-DSO-SC]</small>
 **Evidence that systems of oppression are being dismantled:**
 - Educational outcomes gaps between marginalized and privileged students decrease over time
 - Students from marginalized communities report feeling seen and valued in AI interactions
