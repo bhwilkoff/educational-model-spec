@@ -31,15 +31,15 @@
             display: none;
             width: 90%;
             max-width: 1200px;
-            height: 80vh;
+            height: 85vh;
             background: rgba(255, 255, 255, 0.95);
             border-radius: 20px;
-            padding: 60px;
+            padding: 40px;
             color: #2d3748;
             box-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
             backdrop-filter: blur(10px);
             position: relative;
-            overflow-y: auto;
+            overflow: hidden;
         }
 
         .slide.active {
@@ -53,9 +53,9 @@
         }
 
         .slide h1 {
-            font-size: 3.5rem;
+            font-size: 2.8rem;
             font-weight: 800;
-            margin-bottom: 30px;
+            margin-bottom: 20px;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -64,84 +64,99 @@
         }
 
         .slide h2 {
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-weight: 700;
-            margin-bottom: 25px;
+            margin-bottom: 20px;
             color: #2d3748;
         }
 
         .slide h3 {
-            font-size: 1.8rem;
+            font-size: 1.4rem;
             font-weight: 600;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
             color: #4a5568;
         }
 
         .slide p {
-            font-size: 1.3rem;
-            line-height: 1.7;
-            margin-bottom: 25px;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 15px;
             color: #4a5568;
         }
 
         .highlight {
             background: linear-gradient(120deg, rgba(102, 126, 234, 0.2) 0%, rgba(118, 75, 162, 0.2) 100%);
-            padding: 3px 8px;
-            border-radius: 6px;
+            padding: 2px 6px;
+            border-radius: 4px;
             font-weight: 600;
         }
 
-        .problem-grid, .solution-grid, .principles-grid {
+        .problem-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 25px;
-            margin: 30px 0;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .solution-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin: 25px 0;
+        }
+
+        .principles-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            margin: 20px 0;
         }
 
         .card {
             background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
-            padding: 30px;
-            border-radius: 15px;
-            border-left: 5px solid #667eea;
+            padding: 20px;
+            border-radius: 12px;
+            border-left: 4px solid #667eea;
             transition: transform 0.3s ease;
         }
 
         .card:hover {
-            transform: translateY(-5px);
+            transform: translateY(-3px);
         }
 
         .card h4 {
-            font-size: 1.4rem;
+            font-size: 1.1rem;
             font-weight: 600;
-            margin-bottom: 15px;
+            margin-bottom: 10px;
             color: #2d3748;
         }
 
         .card p {
-            font-size: 1.1rem;
+            font-size: 0.95rem;
             margin-bottom: 0;
+            line-height: 1.4;
         }
 
         .emoji {
-            font-size: 2rem;
-            margin-right: 15px;
+            font-size: 1.2rem;
+            margin-right: 8px;
         }
 
         .quote {
-            font-size: 2rem;
+            font-size: 1.3rem;
             font-style: italic;
             text-align: center;
-            margin: 40px 0;
-            padding: 30px;
+            margin: 25px 0;
+            padding: 20px;
             background: linear-gradient(135deg, rgba(102, 126, 234, 0.15) 0%, rgba(118, 75, 162, 0.15) 100%);
-            border-radius: 15px;
-            border-left: 5px solid #764ba2;
+            border-radius: 12px;
+            border-left: 4px solid #764ba2;
         }
 
         .stats {
             display: flex;
             justify-content: space-around;
-            margin: 40px 0;
+            margin: 30px 0;
         }
 
         .stat {
@@ -149,33 +164,37 @@
         }
 
         .stat-number {
-            font-size: 3rem;
+            font-size: 2.5rem;
             font-weight: 800;
             color: #667eea;
         }
 
         .stat-label {
-            font-size: 1.1rem;
+            font-size: 1rem;
             color: #718096;
-            margin-top: 10px;
+            margin-top: 8px;
         }
 
         .cta {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
-            padding: 20px 40px;
-            border-radius: 50px;
-            font-size: 1.3rem;
+            padding: 15px 30px;
+            border-radius: 40px;
+            font-size: 1.1rem;
             font-weight: 600;
             border: none;
             cursor: pointer;
-            margin: 20px 10px;
+            margin: 15px 8px;
             transition: transform 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
         }
 
         .cta:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+            color: white;
+            text-decoration: none;
         }
 
         .navigation {
@@ -218,11 +237,11 @@
         }
 
         .bullet-points li {
-            margin: 15px 0;
-            padding-left: 30px;
+            margin: 10px 0;
+            padding-left: 25px;
             position: relative;
-            font-size: 1.2rem;
-            line-height: 1.6;
+            font-size: 1rem;
+            line-height: 1.5;
         }
 
         .bullet-points li::before {
@@ -231,27 +250,27 @@
             left: 0;
             color: #667eea;
             font-weight: bold;
-            font-size: 1.4rem;
+            font-size: 1.2rem;
         }
 
         .two-column {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 40px;
+            gap: 30px;
             align-items: center;
         }
 
         .roadmap {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            margin: 30px 0;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            margin: 25px 0;
         }
 
         .roadmap-item {
             background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
-            padding: 25px;
-            border-radius: 15px;
+            padding: 20px;
+            border-radius: 12px;
             text-align: center;
             position: relative;
         }
@@ -259,39 +278,117 @@
         .roadmap-number {
             background: #667eea;
             color: white;
-            width: 40px;
-            height: 40px;
+            width: 35px;
+            height: 35px;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            margin: 0 auto 15px;
+            margin: 0 auto 12px;
             font-weight: bold;
+            font-size: 1rem;
+        }
+
+        .roadmap-item h4 {
+            font-size: 1rem;
+            margin-bottom: 8px;
+        }
+
+        .roadmap-item p {
+            font-size: 0.85rem;
+        }
+
+        .roadmap-item small {
+            font-size: 0.75rem;
+            color: #718096;
+            font-style: italic;
         }
 
         .tools-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            grid-template-columns: repeat(2, 1fr);
             gap: 20px;
-            margin: 30px 0;
+            margin: 25px 0;
         }
 
         .tool-card {
             background: white;
             border: 2px solid #e2e8f0;
-            border-radius: 15px;
-            padding: 25px;
+            border-radius: 12px;
+            padding: 20px;
             transition: all 0.3s ease;
         }
 
         .tool-card:hover {
             border-color: #667eea;
-            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.15);
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.15);
         }
 
         .tool-icon {
-            font-size: 2.5rem;
-            margin-bottom: 15px;
+            font-size: 2rem;
+            margin-bottom: 12px;
+        }
+
+        .tool-card h4 {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+        }
+
+        .tool-card p {
+            font-size: 0.95rem;
+        }
+
+        .title-slide {
+            text-align: center;
+            padding-top: 60px;
+        }
+
+        .title-slide h1 {
+            font-size: 3.2rem;
+            margin-bottom: 20px;
+        }
+
+        .title-slide .subtitle {
+            font-size: 1.4rem;
+            margin-bottom: 30px;
+            color: #667eea;
+            font-weight: 500;
+        }
+
+        .title-slide .quote {
+            margin: 40px auto;
+            max-width: 700px;
+            font-size: 1.2rem;
+        }
+
+        .title-slide .tagline {
+            font-size: 1.1rem;
+            color: #718096;
+        }
+
+        .centered-content {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .evidence-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin: 25px 0;
+        }
+
+        .large-card {
+            grid-column: span 2;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 1024px) {
+            .slide h1 { font-size: 2.4rem; }
+            .slide h2 { font-size: 1.8rem; }
+            .principles-grid { grid-template-columns: repeat(2, 1fr); }
+            .problem-grid { grid-template-columns: repeat(2, 1fr); }
+            .roadmap { grid-template-columns: repeat(2, 1fr); }
         }
     </style>
 </head>
@@ -299,13 +396,13 @@
     <div class="slideshow-container">
         <!-- Slide 1: Title -->
         <div class="slide active">
-            <div style="text-align: center; padding-top: 100px;">
+            <div class="title-slide">
                 <h1>Educational Model Spec</h1>
-                <p style="font-size: 1.8rem; margin-bottom: 40px; color: #667eea; font-weight: 500;">AI in education that prioritizes human learning, teacher empowerment, and student agency over test outcomes</p>
-                <div class="quote" style="margin: 60px auto; max-width: 800px;">
+                <p class="subtitle">AI in education that prioritizes human learning, teacher empowerment, and student agency over test outcomes</p>
+                <div class="quote">
                     "Learning is change. Not the accumulation of facts for regurgitation, but the authentic transformation that occurs when humans engage with ideas, with each other, and with the world around them."
                 </div>
-                <p style="font-size: 1.3rem; color: #718096;">A democratically-developed specification BY educators, students, and communities FOR authentic learning</p>
+                <p class="tagline">A democratically-developed specification BY educators, students, and communities FOR authentic learning</p>
             </div>
         </div>
 
@@ -317,27 +414,27 @@
             <div class="problem-grid">
                 <div class="card">
                     <h4>📊 Test-Outcome Obsession</h4>
-                    <p>AI optimizes for standardized metrics that reduce the gorgeous complexity of learning to data points</p>
+                    <p>AI optimizes for standardized metrics that reduce learning complexity to data points</p>
                 </div>
                 <div class="card">
                     <h4>🏃 Individual Performance Focus</h4>
-                    <p>Emphasis on individual competition over collaborative learning and community building</p>
+                    <p>Emphasis on competition over collaborative learning and community building</p>
                 </div>
                 <div class="card">
                     <h4>📱 Consumption Over Creation</h4>
-                    <p>Students consume AI-generated content rather than create original expressions of understanding</p>
+                    <p>Students consume AI content rather than create original understanding</p>
                 </div>
                 <div class="card">
                     <h4>⚡ Efficiency Over Authenticity</h4>
-                    <p>Speed and convenience prioritized over the meaningful struggle that builds learning muscles</p>
+                    <p>Speed prioritized over meaningful struggle that builds learning muscles</p>
                 </div>
                 <div class="card">
                     <h4>📏 Standardization Over Personalization</h4>
-                    <p>One-size-fits-all approaches that ignore diverse learning paths and cultural ways of knowing</p>
+                    <p>One-size-fits-all approaches ignore diverse learning paths</p>
                 </div>
                 <div class="card">
                     <h4>🎭 Replacement Over Amplification</h4>
-                    <p>AI replacing essentially human work of wrestling with ideas and building authentic relationships</p>
+                    <p>AI replacing human work of wrestling with ideas and relationships</p>
                 </div>
             </div>
         </div>
@@ -358,7 +455,7 @@
                     </ul>
                 </div>
                 <div>
-                    <div class="quote" style="margin: 0; font-size: 1.5rem;">
+                    <div class="quote" style="margin: 0; font-size: 1.2rem;">
                         "Education should be about becoming more human, not more efficient. It should expand our capacity for empathy, creativity, and critical thinking."
                     </div>
                 </div>
@@ -470,8 +567,8 @@
                 </div>
             </div>
             
-            <div style="text-align: center; margin-top: 40px;">
-                <p style="font-size: 1.4rem; color: #667eea; font-weight: 600;">All tools are open-source and ready for immediate implementation</p>
+            <div class="centered-content">
+                <p style="font-size: 1.2rem; color: #667eea; font-weight: 600;">All tools are open-source and ready for immediate implementation</p>
             </div>
         </div>
 
@@ -505,7 +602,7 @@
                 </div>
             </div>
             
-            <div class="card" style="margin-top: 30px;">
+            <div class="card" style="margin-top: 25px;">
                 <h4>Critical Thinking Checkpoints</h4>
                 <p><strong>Before:</strong> "What have you tried? Show me your thinking first."<br>
                 <strong>During:</strong> "What's another way to approach this? What evidence supports this?"<br>
@@ -539,7 +636,7 @@
                 </div>
             </div>
             
-            <div class="quote" style="margin-top: 40px;">
+            <div class="quote" style="margin-top: 30px;">
                 "Students maintain complete control over what gets included, how their story is told, and who has access to different parts of their learning journey."
             </div>
         </div>
@@ -549,7 +646,7 @@
             <h2>⚖️ Dismantling Systems of Oppression</h2>
             <h3>Beyond diversity theater - authentic liberation work</h3>
             
-            <div class="problem-grid">
+            <div class="solution-grid">
                 <div class="card">
                     <h4>🌍 Decolonizing Curriculum</h4>
                     <p>Surface knowledge from Global South, Indigenous, and marginalized communities. Challenge AI to present multiple cultural perspectives.</p>
@@ -568,8 +665,8 @@
                 </div>
             </div>
             
-            <div style="text-align: center; margin-top: 40px;">
-                <p style="font-size: 1.4rem; color: #667eea; font-weight: 600;">Student-led auditing ensures authentic progress, not performative inclusion</p>
+            <div class="centered-content">
+                <p style="font-size: 1.2rem; color: #667eea; font-weight: 600;">Student-led auditing ensures authentic progress, not performative inclusion</p>
             </div>
         </div>
 
@@ -604,8 +701,8 @@
                 </div>
             </div>
             
-            <div style="text-align: center; margin-top: 40px;">
-                <p style="font-size: 1.3rem;"><strong>Ongoing Commitment:</strong> Community accountability, student leadership, economic justice, decolonizing practice</p>
+            <div class="centered-content">
+                <p style="font-size: 1.1rem;"><strong>Ongoing Commitment:</strong> Community accountability, student leadership, economic justice, decolonizing practice</p>
             </div>
         </div>
 
@@ -665,7 +762,7 @@
                 </div>
             </div>
             
-            <div class="problem-grid" style="margin-top: 40px;">
+            <div class="evidence-grid" style="margin-top: 30px;">
                 <div class="card">
                     <h4>🎯 Success Criteria Framework</h4>
                     <p>Each principle includes measurable success criteria defined by community stakeholders, not institutional metrics</p>
@@ -680,8 +777,8 @@
                 </div>
             </div>
             
-            <div style="text-align: center; margin-top: 40px;">
-                <p style="font-size: 1.4rem; color: #667eea; font-weight: 600;">Your community could be the first to systematically implement and measure these principles</p>
+            <div class="centered-content">
+                <p style="font-size: 1.2rem; color: #667eea; font-weight: 600;">Your community could be the first to systematically implement and measure these principles</p>
             </div>
         </div>
 
@@ -711,13 +808,13 @@
                 </div>
             </div>
             
-            <div style="text-align: center; margin-top: 50px;">
-                <button class="cta">Get Implementation Tools</button>
-                <button class="cta">Join the Discussion</button>
-                <button class="cta">Start a Pilot</button>
+            <div class="centered-content" style="margin-top: 40px;">
+                <a href="https://github.com/bhwilkoff/educational-model-spec/tree/main/docs/implementation-tools" class="cta" target="_blank">Get Implementation Tools</a>
+                <a href="https://github.com/bhwilkoff/educational-model-spec/discussions" class="cta" target="_blank">Join the Discussion</a>
+                <a href="https://github.com/bhwilkoff/educational-model-spec" class="cta" target="_blank">Start a Pilot</a>
             </div>
             
-            <div class="quote" style="margin-top: 40px;">
+            <div class="quote" style="margin-top: 30px;">
                 "Learning is change. Let's change how AI serves learning—and in doing so, change what education can become."
             </div>
         </div>
@@ -757,9 +854,6 @@
                 previousSlide();
             }
         });
-        
-        // Auto-advance for demo (optional - remove if not wanted)
-        // setInterval(nextSlide, 10000); // 10 seconds per slide
     </script>
 </body>
 </html>
