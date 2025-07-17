@@ -11,6 +11,7 @@ This specification is designed BY educators, students, families, and communities
 ## 📚 Quick Start
 
 - 🌟 **[Read the Full Specification](docs/overview.md)** - Our complete framework for learning-centered AI
+- 🎤 **[View the Pitch Presentation](pitch.html)** - 13-slide overview perfect for sharing with stakeholders
 - 🛠️ **[Implementation Tools](docs/implementation-tools/)** - Practical resources to start implementing today
 - 💬 **[Join the Discussion](../../discussions)** - Share your thoughts and experiences
 - 🤝 **[How to Contribute](CONTRIBUTING.md)** - Add your voice to this living document
@@ -26,6 +27,19 @@ Unlike AI specifications designed by tech companies, this model spec:
 - **Protects agency** - Students own their learning data and educational narrative
 - **Engages thinking** - AI creates cognitive challenges rather than shortcuts
 - **Builds community** - Learning happens through authentic relationships
+
+## 📊 Share the Vision
+
+### [🎤 Pitch Presentation](pitch.html)
+A compelling 13-slide presentation that makes the case for learning-centered AI specification. Perfect for:
+
+- **Educators** introducing the concept to colleagues and administrators
+- **Students** advocating for better educational AI in their schools
+- **Policymakers** understanding alternatives to corporate AI specifications  
+- **Community leaders** building support for democratic governance of educational technology
+- **Technologists** seeking to build AI that serves human flourishing
+
+*Navigate with arrow keys or the on-screen controls. Mobile-friendly for presenting anywhere.*
 
 ## 🏗️ Framework Overview
 
@@ -76,6 +90,7 @@ Beyond diversity theater, educational justice, community accountability
 **🚧 Phase 1: Foundation Building (Months 1-6)**
 - [x] Initial specification draft complete
 - [x] Core implementation tools developed
+- [x] Stakeholder presentation materials created
 - [ ] Community governance structure established  
 - [ ] Student advisory councils formed
 - [ ] Pilot program partnerships identified

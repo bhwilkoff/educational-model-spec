@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Model Spec - Pitch Deck</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #ffffff;
+            overflow: hidden;
+        }
+
+        .slideshow-container {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .slide {
+            display: none;
+            width: 90%;
+            max-width: 1200px;
+            height: 80vh;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 60px;
+            color: #2d3748;
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+            backdrop-filter: blur(10px);
+            position: relative;
+            overflow-y: auto;
+        }
+
+        .slide.active {
+            display: block;
+            animation: slideIn 0.6s ease-out;
+        }
+
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .slide h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1.2;
+        }
+
+        .slide h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 25px;
+            color: #2d3748;
+        }
+
+        .slide h3 {
+            font-size: 1.8rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: #4a5568;
+        }
+
+        .slide p {
+            font-size: 1.3rem;
+            line-height: 1.7;
+            margin-bottom: 25px;
+            color: #4a5568;
+        }
+
+        .highlight {
+            background: linear-gradient(120deg, rgba(102, 126, 234, 0.2) 0%, rgba(118, 75, 162, 0.2) 100%);
+            padding: 3px 8px;
+            border-radius: 6px;
+            font-weight: 600;
+        }
+
+        .problem-grid, .solution-grid, .principles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin: 30px 0;
+        }
+
+        .card {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+            padding: 30px;
+            border-radius: 15px;
+            border-left: 5px solid #667eea;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h4 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: #2d3748;
+        }
+
+        .card p {
+            font-size: 1.1rem;
+            margin-bottom: 0;
+        }
+
+        .emoji {
+            font-size: 2rem;
+            margin-right: 15px;
+        }
+
+        .quote {
+            font-size: 2rem;
+            font-style: italic;
+            text-align: center;
+            margin: 40px 0;
+            padding: 30px;
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.15) 0%, rgba(118, 75, 162, 0.15) 100%);
+            border-radius: 15px;
+            border-left: 5px solid #764ba2;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            margin: 40px 0;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 3rem;
+            font-weight: 800;
+            color: #667eea;
+        }
+
+        .stat-label {
+            font-size: 1.1rem;
+            color: #718096;
+            margin-top: 10px;
+        }
+
+        .cta {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px 40px;
+            border-radius: 50px;
+            font-size: 1.3rem;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+            margin: 20px 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .cta:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+        }
+
+        .navigation {
+            position: fixed;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 50px;
+            padding: 15px 25px;
+            backdrop-filter: blur(10px);
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .nav-btn {
+            background: rgba(255, 255, 255, 0.3);
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .nav-btn:hover {
+            background: rgba(255, 255, 255, 0.5);
+        }
+
+        .slide-counter {
+            color: white;
+            font-weight: 600;
+        }
+
+        .bullet-points {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .bullet-points li {
+            margin: 15px 0;
+            padding-left: 30px;
+            position: relative;
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        .bullet-points li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+            font-size: 1.4rem;
+        }
+
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .roadmap {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .roadmap-item {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+            position: relative;
+        }
+
+        .roadmap-number {
+            background: #667eea;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 15px;
+            font-weight: bold;
+        }
+
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .tool-card {
+            background: white;
+            border: 2px solid #e2e8f0;
+            border-radius: 15px;
+            padding: 25px;
+            transition: all 0.3s ease;
+        }
+
+        .tool-card:hover {
+            border-color: #667eea;
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.15);
+        }
+
+        .tool-icon {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slideshow-container">
+        <!-- Slide 1: Title -->
+        <div class="slide active">
+            <div style="text-align: center; padding-top: 100px;">
+                <h1>Educational Model Spec</h1>
+                <p style="font-size: 1.8rem; margin-bottom: 40px; color: #667eea; font-weight: 500;">AI in education that prioritizes human learning, teacher empowerment, and student agency over test outcomes</p>
+                <div class="quote" style="margin: 60px auto; max-width: 800px;">
+                    "Learning is change. Not the accumulation of facts for regurgitation, but the authentic transformation that occurs when humans engage with ideas, with each other, and with the world around them."
+                </div>
+                <p style="font-size: 1.3rem; color: #718096;">A democratically-developed specification BY educators, students, and communities FOR authentic learning</p>
+            </div>
+        </div>
+
+        <!-- Slide 2: The Problem -->
+        <div class="slide">
+            <h2>🚨 The Problem with Current Educational AI</h2>
+            <p>Educational AI today often <span class="highlight">reinforces the very systems we need to transform</span></p>
+            
+            <div class="problem-grid">
+                <div class="card">
+                    <h4>📊 Test-Outcome Obsession</h4>
+                    <p>AI optimizes for standardized metrics that reduce the gorgeous complexity of learning to data points</p>
+                </div>
+                <div class="card">
+                    <h4>🏃 Individual Performance Focus</h4>
+                    <p>Emphasis on individual competition over collaborative learning and community building</p>
+                </div>
+                <div class="card">
+                    <h4>📱 Consumption Over Creation</h4>
+                    <p>Students consume AI-generated content rather than create original expressions of understanding</p>
+                </div>
+                <div class="card">
+                    <h4>⚡ Efficiency Over Authenticity</h4>
+                    <p>Speed and convenience prioritized over the meaningful struggle that builds learning muscles</p>
+                </div>
+                <div class="card">
+                    <h4>📏 Standardization Over Personalization</h4>
+                    <p>One-size-fits-all approaches that ignore diverse learning paths and cultural ways of knowing</p>
+                </div>
+                <div class="card">
+                    <h4>🎭 Replacement Over Amplification</h4>
+                    <p>AI replacing essentially human work of wrestling with ideas and building authentic relationships</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 3: Our Alternative Vision -->
+        <div class="slide">
+            <h2>✨ Our Alternative Vision</h2>
+            <div class="two-column">
+                <div>
+                    <h3>AI as Learning Catalyst</h3>
+                    <p>We envision AI that <span class="highlight">sparks and accelerates transformation</span> without replacing the essentially human work of:</p>
+                    <ul class="bullet-points">
+                        <li>Wrestling with complex ideas</li>
+                        <li>Building authentic relationships</li>
+                        <li>Creating original expressions of understanding</li>
+                        <li>Developing empathy and global citizenship</li>
+                        <li>Finding one's unique voice and path</li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="quote" style="margin: 0; font-size: 1.5rem;">
+                        "Education should be about becoming more human, not more efficient. It should expand our capacity for empathy, creativity, and critical thinking."
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 4: What Makes This Different -->
+        <div class="slide">
+            <h2>🌟 What Makes the Educational Model Spec Different</h2>
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-number">BY</div>
+                    <div class="stat-label">Educators & Students<br>Not Technologists Alone</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">FOR</div>
+                    <div class="stat-label">Human Flourishing<br>Not Algorithmic Efficiency</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">WITH</div>
+                    <div class="stat-label">Democratic Governance<br>Not Corporate Control</div>
+                </div>
+            </div>
+            
+            <div class="solution-grid">
+                <div class="card">
+                    <h4><span class="emoji">🎯</span>Learning-Centered</h4>
+                    <p>Process over product, multiple paths to wisdom, creation over consumption</p>
+                </div>
+                <div class="card">
+                    <h4><span class="emoji">🗳️</span>Democratically Governed</h4>
+                    <p>Student voice as primary, community accountability, transparent decision-making</p>
+                </div>
+                <div class="card">
+                    <h4><span class="emoji">🤝</span>Human-Amplifying</h4>
+                    <p>AI as facilitator never replacement, protecting human agency, teacher empowerment</p>
+                </div>
+                <div class="card">
+                    <h4><span class="emoji">⚖️</span>Justice-Oriented</h4>
+                    <p>Beyond diversity theater, educational justice, dismantling oppressive systems</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 5: Core Principles -->
+        <div class="slide">
+            <h2>🏛️ Eight Core Principles</h2>
+            <div class="principles-grid">
+                <div class="card">
+                    <h4>1. Foundational Learning Philosophy</h4>
+                    <p>Learning is inherently social, collaborative, and transformative</p>
+                </div>
+                <div class="card">
+                    <h4>2. Democratic Governance</h4>
+                    <p>Student voice primary, authentic stakeholder participation</p>
+                </div>
+                <div class="card">
+                    <h4>3. Human-Centered Design</h4>
+                    <p>AI amplifies rather than replaces human learning capacity</p>
+                </div>
+                <div class="card">
+                    <h4>4. Authentic Assessment</h4>
+                    <p>Evidence of growth over test scores, formative feedback</p>
+                </div>
+                <div class="card">
+                    <h4>5. AI Guardrails</h4>
+                    <p>Engaging thinking never replacing it, critical thinking checkpoints</p>
+                </div>
+                <div class="card">
+                    <h4>6. Student Data Ownership</h4>
+                    <p>Meaningful portfolios, complete student control, data sovereignty</p>
+                </div>
+                <div class="card">
+                    <h4>7. Privacy & Well-being</h4>
+                    <p>Data as sacred trust, emotional safety, growth mindset support</p>
+                </div>
+                <div class="card">
+                    <h4>8. Dismantling Oppression</h4>
+                    <p>Educational justice, authentic liberation work, community accountability</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 6: Practical Implementation Tools -->
+        <div class="slide">
+            <h2>🛠️ Ready-to-Use Implementation Tools</h2>
+            <p>Transform vision into action with concrete, tested resources</p>
+            
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-icon">📋</div>
+                    <h4>AI Disclosure & Reflection Protocol</h4>
+                    <p>Transform AI "compliance" into learning opportunities through transparent reflection</p>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">🎯</div>
+                    <h4>Thinking Engagement Rubrics</h4>
+                    <p>Distinguish between AI shortcuts and productive thinking collaboration</p>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">🛡️</div>
+                    <h4>AI Guardrails Prompt</h4>
+                    <p>Transform any AI system into a learning partner that follows spec principles</p>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">✅</div>
+                    <h4>Spec Compliance Framework</h4>
+                    <p>Systematic evaluation of whether AI implementations follow spec principles</p>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 40px;">
+                <p style="font-size: 1.4rem; color: #667eea; font-weight: 600;">All tools are open-source and ready for immediate implementation</p>
+            </div>
+        </div>
+
+        <!-- Slide 7: AI Guardrails Example -->
+        <div class="slide">
+            <h2>🛡️ AI Guardrails in Action</h2>
+            <h3>The Core Question: Does this make the student a stronger thinker?</h3>
+            
+            <div class="two-column">
+                <div>
+                    <h4 style="color: #e53e3e;">❌ What AI Will NOT Do</h4>
+                    <ul class="bullet-points" style="color: #e53e3e;">
+                        <li>Provide complete homework solutions</li>
+                        <li>Write thesis statements before student exploration</li>
+                        <li>Give step-by-step solutions without understanding</li>
+                        <li>Create summaries that replace reading</li>
+                        <li>Generate creative work students could create</li>
+                        <li>Enable passive consumption over active thinking</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="color: #38a169;">✅ What AI WILL Do</h4>
+                    <ul class="bullet-points" style="color: #38a169;">
+                        <li>Ask clarifying questions to understand thinking</li>
+                        <li>Provide thinking scaffolds, not completed thoughts</li>
+                        <li>Encourage multiple approaches to problems</li>
+                        <li>Connect new learning to prior knowledge</li>
+                        <li>Generate authentic problems requiring creativity</li>
+                        <li>Prompt evidence-seeking and metacognition</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="card" style="margin-top: 30px;">
+                <h4>Critical Thinking Checkpoints</h4>
+                <p><strong>Before:</strong> "What have you tried? Show me your thinking first."<br>
+                <strong>During:</strong> "What's another way to approach this? What evidence supports this?"<br>
+                <strong>After:</strong> "Explain this in your own words. Where else might you use this thinking?"</p>
+            </div>
+        </div>
+
+        <!-- Slide 8: Student Data Ownership -->
+        <div class="slide">
+            <h2>🎓 Student Data Ownership & Meaningful Portfolios</h2>
+            <h3>Every student graduates with their learning story, not just test scores</h3>
+            
+            <div class="two-column">
+                <div>
+                    <h4>What Students Own & Control:</h4>
+                    <ul class="bullet-points">
+                        <li>Learning preferences and strategies</li>
+                        <li>Intellectual growth documentation</li>
+                        <li>Authentic work products</li>
+                        <li>Reflection and metacognitive awareness</li>
+                        <li>Complete privacy and sharing controls</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Transforming Transitions:</h4>
+                    <ul class="bullet-points">
+                        <li><strong>College:</strong> Understanding how students learn best</li>
+                        <li><strong>Employment:</strong> Authentic evidence of problem-solving</li>
+                        <li><strong>Lifelong:</strong> Tools for self-advocacy in any environment</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="quote" style="margin-top: 40px;">
+                "Students maintain complete control over what gets included, how their story is told, and who has access to different parts of their learning journey."
+            </div>
+        </div>
+
+        <!-- Slide 9: Justice & Equity Focus -->
+        <div class="slide">
+            <h2>⚖️ Dismantling Systems of Oppression</h2>
+            <h3>Beyond diversity theater - authentic liberation work</h3>
+            
+            <div class="problem-grid">
+                <div class="card">
+                    <h4>🌍 Decolonizing Curriculum</h4>
+                    <p>Surface knowledge from Global South, Indigenous, and marginalized communities. Challenge AI to present multiple cultural perspectives.</p>
+                </div>
+                <div class="card">
+                    <h4>🗣️ Disrupting Linguistic Supremacy</h4>
+                    <p>Support learning in home languages, validate diverse communication styles, resist AI that "corrects" toward dominant norms.</p>
+                </div>
+                <div class="card">
+                    <h4>🧠 Honoring Neurodiversity</h4>
+                    <p>Multiple pathways for processing, flexible pacing, sensory-aware interactions, recognition of different learning styles.</p>
+                </div>
+                <div class="card">
+                    <h4>💰 Economic Justice</h4>
+                    <p>Universal access regardless of funding, community-controlled technology, student and family data sovereignty.</p>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 40px;">
+                <p style="font-size: 1.4rem; color: #667eea; font-weight: 600;">Student-led auditing ensures authentic progress, not performative inclusion</p>
+            </div>
+        </div>
+
+        <!-- Slide 10: Implementation Roadmap -->
+        <div class="slide">
+            <h2>🗺️ Implementation Roadmap</h2>
+            
+            <div class="roadmap">
+                <div class="roadmap-item">
+                    <div class="roadmap-number">1</div>
+                    <h4>Foundation Building</h4>
+                    <p>Establish governance, develop guardrails, create data sovereignty frameworks</p>
+                    <small>Months 1-6</small>
+                </div>
+                <div class="roadmap-item">
+                    <div class="roadmap-number">2</div>
+                    <h4>Tool Development</h4>
+                    <p>Build thinking-engagement AI, implement bias detection, create portfolio platforms</p>
+                    <small>Months 7-12</small>
+                </div>
+                <div class="roadmap-item">
+                    <div class="roadmap-number">3</div>
+                    <h4>Scaling Implementation</h4>
+                    <p>Expand to diverse communities, document equity impact, refine based on feedback</p>
+                    <small>Months 13-18</small>
+                </div>
+                <div class="roadmap-item">
+                    <div class="roadmap-number">4</div>
+                    <h4>Systemic Change</h4>
+                    <p>Advocate for policy changes, challenge assessment systems, build movement connections</p>
+                    <small>Months 19-30</small>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 40px;">
+                <p style="font-size: 1.3rem;"><strong>Ongoing Commitment:</strong> Community accountability, student leadership, economic justice, decolonizing practice</p>
+            </div>
+        </div>
+
+        <!-- Slide 11: Why This Matters Now -->
+        <div class="slide">
+            <h2>⏰ Why This Matters Now</h2>
+            
+            <div class="two-column">
+                <div>
+                    <h3>The Window is Closing</h3>
+                    <ul class="bullet-points">
+                        <li>AI is rapidly being integrated into education</li>
+                        <li>Corporate specifications becoming the default</li>
+                        <li>Student data sovereignty at risk</li>
+                        <li>Opportunity to shape rather than react</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>The Stakes are High</h3>
+                    <ul class="bullet-points">
+                        <li>Entire generation's learning experience</li>
+                        <li>Teacher professional autonomy</li>
+                        <li>Educational equity and justice</li>
+                        <li>Future of human agency in learning</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="quote">
+                "We have a choice: AI that serves surveillance capitalism in education, or AI that serves human flourishing. The decisions we make in the next few years will shape education for decades."
+            </div>
+        </div>
+
+        <!-- Slide 12: Building the Evidence Base -->
+        <div class="slide">
+            <h2>🔬 Building the Evidence Base</h2>
+            <h3>Ready for systematic implementation and data collection</h3>
+            
+            <div class="two-column">
+                <div>
+                    <h4>What We Have Built</h4>
+                    <ul class="bullet-points">
+                        <li>Comprehensive specification with 8 core principles</li>
+                        <li>Practical implementation tools ready for testing</li>
+                        <li>Democratic governance framework</li>
+                        <li>Community accountability mechanisms</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>What We're Ready to Measure</h4>
+                    <ul class="bullet-points">
+                        <li>Student thinking engagement vs. shortcut-seeking</li>
+                        <li>Teacher professional empowerment</li>
+                        <li>Community satisfaction with governance</li>
+                        <li>Educational equity outcomes</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="problem-grid" style="margin-top: 40px;">
+                <div class="card">
+                    <h4>🎯 Success Criteria Framework</h4>
+                    <p>Each principle includes measurable success criteria defined by community stakeholders, not institutional metrics</p>
+                </div>
+                <div class="card">
+                    <h4>📊 Community-Defined Metrics</h4>
+                    <p>Success measured by outcomes that matter to students, families, and communities—not efficiency metrics</p>
+                </div>
+                <div class="card">
+                    <h4>🔍 Evidence-Based Validation</h4>
+                    <p>Framework helps communities determine whether implementations serve stated values vs. just appearing progressive</p>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 40px;">
+                <p style="font-size: 1.4rem; color: #667eea; font-weight: 600;">Your community could be the first to systematically implement and measure these principles</p>
+            </div>
+        </div>
+
+        <!-- Slide 13: Call to Action -->
+        <div class="slide">
+            <h2>🚀 Join the Movement</h2>
+            <h3>This is not just about better AI—it's about building the educational system our children deserve</h3>
+            
+            <div class="two-column">
+                <div>
+                    <h4>We Need Your Voice</h4>
+                    <ul class="bullet-points">
+                        <li><strong>Students:</strong> Co-design AI that makes you stronger thinkers</li>
+                        <li><strong>Teachers:</strong> Share your professional wisdom about learning</li>
+                        <li><strong>Families:</strong> Ensure community control over educational technology</li>
+                        <li><strong>Technologists:</strong> Build tools that serve human flourishing</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>How to Get Started</h4>
+                    <ul class="bullet-points">
+                        <li>Try the implementation tools in your context</li>
+                        <li>Join discussions at our GitHub repository</li>
+                        <li>Pilot the AI Guardrails in your classroom</li>
+                        <li>Connect with communities doing this work</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 50px;">
+                <button class="cta">Get Implementation Tools</button>
+                <button class="cta">Join the Discussion</button>
+                <button class="cta">Start a Pilot</button>
+            </div>
+            
+            <div class="quote" style="margin-top: 40px;">
+                "Learning is change. Let's change how AI serves learning—and in doing so, change what education can become."
+            </div>
+        </div>
+    </div>
+
+    <div class="navigation">
+        <button class="nav-btn" onclick="previousSlide()">Previous</button>
+        <span class="slide-counter">1 / 13</span>
+        <button class="nav-btn" onclick="nextSlide()">Next</button>
+    </div>
+
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+        const totalSlides = slides.length;
+        
+        function showSlide(n) {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (n + totalSlides) % totalSlides;
+            slides[currentSlide].classList.add('active');
+            document.querySelector('.slide-counter').textContent = `${currentSlide + 1} / ${totalSlides}`;
+        }
+        
+        function nextSlide() {
+            showSlide(currentSlide + 1);
+        }
+        
+        function previousSlide() {
+            showSlide(currentSlide - 1);
+        }
+        
+        // Keyboard navigation
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'ArrowRight' || e.key === ' ') {
+                nextSlide();
+            } else if (e.key === 'ArrowLeft') {
+                previousSlide();
+            }
+        });
+        
+        // Auto-advance for demo (optional - remove if not wanted)
+        // setInterval(nextSlide, 10000); // 10 seconds per slide
+    </script>
+</body>
+</html>
