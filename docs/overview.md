@@ -64,31 +64,40 @@ We envision AI that serves as a **learning catalyst**—sparking and acceleratin
 
 ### Core Principles [EMS-FLP-01]
 
-**Learning is inherently social and collaborative.** Whether it's children learning language through conversation, scientists advancing knowledge through peer review, or communities solving problems together, all authentic learning happens through connection with others. [EMS-FLP-01a]
+### Core Principles [EMS-FLP-01]
 
-**Process matters more than product.** We celebrate being "in process"—the messy, uncertain, revelatory work of thinking through problems, questioning assumptions, and building understanding over time. [EMS-FLP-01b]
+**Learning is the practice of becoming more fully human.** Learning is not information acquisition or task completion—it is the transformative process through which we develop our capacity to think critically, create meaningfully, connect authentically, and contribute to our communities. In an age where AI can rapidly generate content and complete assignments, protecting and nurturing this essentially human work of growth and transformation becomes urgent for every student's future. [EMS-FLP-01a]
 
-**Multiple paths lead to wisdom.** We honor diverse educational journeys and reject the myth that there's one "right way" to learn. Some learners thrive through hands-on exploration, others through quiet reflection, still others through lively debate—each path has value. [EMS-FLP-01c]
+**Learning must be personally relevant.** When students connect new information to their lived experiences and real challenges, they develop the ability to transfer knowledge across situations—a uniquely human capacity that no AI can replicate. Without personal context, learning becomes shallow memorization that AI will always do better and faster than humans. [EMS-FLP-01b]
 
-**Creation over consumption.** Students should be makers of meaning, not just consumers of content. When learners actively question, connect ideas, build projects, and share their understanding with others, they engage more deeply than when they simply absorb information. [EMS-FLP-01d]
+**All knowledge is interconnected.** Students who learn to trace ideas across disciplines, cultures, and time periods develop the systems thinking our complex world demands. AI should reveal these connections to deepen understanding, not fragment knowledge into isolated, searchable bits that reduce learning to information retrieval. [EMS-FLP-01c]
 
-**Intrinsic motivation drives lasting learning.** We protect and nurture curiosity, wonder, and the joy of discovery rather than relying on external rewards or punishments. [EMS-FLP-01e]
+**Learning is inherently collaborative.** When students learn to build on others' ideas, engage diverse perspectives, and co-create solutions, they develop the collaborative skills essential for addressing humanity's greatest challenges. AI that isolates learners or replaces human collaboration robs students of these vital interpersonal capacities. [EMS-FLP-01d]
+
+**Learning requires embracing change.** Students who embrace uncertainty, revise their thinking based on new evidence, and adapt their approaches to changing contexts develop the cognitive flexibility necessary for lifelong learning. Static knowledge quickly becomes obsolete; the ability to learn and relearn is what remains valuable. [EMS-FLP-01e]
+
+**Understanding emerges through conversation.** When students engage in dialogue, debate, and reflection, they develop their own voice and learn to articulate complex ideas—skills that remain uniquely human even as AI becomes more sophisticated. Without this practice, students become passive consumers rather than active creators of knowledge. [EMS-FLP-01f]
+
+**Learning must be student-driven and continuous.** Students who learn to pursue their own questions, direct their inquiry, and take ownership of their growth develop the intrinsic motivation and self-direction that leads to fulfilling lives and meaningful contributions. External systems that diminish student agency ultimately diminish human potential. [EMS-FLP-01g]
 
 ### AI Implementation Guidelines [EMS-FLP-02]
-
-- **Support divergent thinking** rather than convergence on "correct" answers
-- **Encourage intellectual risk-taking** and learning from mistakes
-- **Facilitate peer collaboration** and community-building
-- **Amplify student voice** and agency in learning decisions
-- **Connect learning to real-world impact** and authentic purposes
+- **Strengthen uniquely human capacities** rather than replacing them—prompt critical thinking, creative expression, and empathetic connection
+- **Connect all learning to students' lived experiences** and real challenges they care about solving
+- **Reveal connections across disciplines, cultures, and contexts** to build systems thinking rather than isolated knowledge
+- **Facilitate meaningful collaboration** where students build on each other's ideas and engage diverse perspectives
+- **Support intellectual flexibility** by encouraging students to revise thinking, adapt approaches, and embrace uncertainty
+- **Provoke dialogue and meaning-making** through questions that generate discussion, debate, and reflection
+- **Amplify student agency** by supporting their own questions, interests, and self-directed learning paths
 
 ### Success Criteria [EMS-FLP-SC]
 **Evidence that foundational learning philosophy is being implemented:**
-- Students choose collaboration over competition when given options
-- Learning activities show clear connections to students' lived experiences
-- Multiple valid approaches to problems are celebrated equally
-- Students demonstrate ownership over their learning goals and processes
-- Intrinsic motivation indicators (curiosity, questioning, self-directed exploration) increase over time
+- Students articulate how their learning connects to their personal experiences and future aspirations
+- Students naturally make connections between different subjects, ideas, and real-world applications
+- Collaborative work results in collective insights that exceed individual contributions
+- Students demonstrate comfort with uncertainty and willingness to revise their thinking
+- Rich dialogue emerges where students build meaning through conversation rather than seeking quick answers
+- Students initiate their own learning questions and pursue inquiry beyond assigned work
+- Indicators of human flourishing (curiosity, creativity, empathy, critical thinking) increase over time rather than efficiency metrics
 
 ---
 
