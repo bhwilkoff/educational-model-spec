@@ -42,6 +42,20 @@ Every tool in this collection embodies the core principles of the Educational Mo
 
 ## Available Tools
 
+### [Learning Identity Designer](https://bhwilkoff.github.io/educational-model-spec/docs/implementation-tools/learning_identity_tool.html) ✅ 🌟
+**Purpose**: Help students understand themselves as learners and create personalized AI collaboration guidelines rooted in their cultural background and community connections
+
+**Who it's for**: Students building self-awareness, teachers facilitating learning reflection, families understanding their children's learning needs, anyone wanting to collaborate more effectively with AI
+
+**Key features**:
+- Comprehensive self-reflection process covering strengths, needs, interests, and cultural context
+- AI collaboration parameters that can be copied into any AI system (ChatGPT, Claude, etc.)
+- Beautiful visual learning identity card for display and sharing
+- Built-in Educational Model Spec principles and guardrails
+- Emphasis on student agency and authentic learning identity
+
+**Get started**: Open the tool, complete the guided reflection process, and use your generated AI parameters in your next AI collaboration
+
 ### [AI Disclosure & Reflection Protocol](ai_disclosure_protocol.md) ✅
 **Purpose**: Transform AI "compliance" into learning opportunities through transparent reflection
 
@@ -144,6 +158,19 @@ Every tool in this collection embodies the core principles of the Educational Mo
 
 ---
 
+## Recommended Implementation Flow
+
+**Start with foundation building:**
+
+1. **[Learning Identity Designer](https://bhwilkoff.github.io/educational-model-spec/docs/implementation-tools/learning_identity_tool.html)** - Help students understand themselves as learners first
+2. **[AI Guardrails Prompt](ai_guardrails_prompt.md)** - Set up AI systems to protect thinking (can use parameters from Learning Identity Designer)
+3. **[AI Disclosure Protocol](ai_disclosure_protocol.md)** - Create transparent AI collaboration practices
+4. **[Thinking Engagement Rubrics](thinking_engagement_rubrics.md)** - Develop skills for assessing AI collaboration quality
+
+**This sequence ensures students have self-awareness and agency before engaging with AI systems, then provides frameworks for authentic collaboration and ongoing reflection.**
+
+---
+
 ## How to Use These Tools
 
 ### Start Small, Think Big
@@ -232,7 +259,8 @@ These practical tools serve the larger transformational vision of the Educationa
 ## Quick Links
 
 - **[Educational Model Spec Overview](../overview.md)** - Return to the main specification
-- **[AI Disclosure Protocol](ai_disclosure_protocol.md)** - Start with transparent AI collaboration practices
+- **[Learning Identity Designer](https://bhwilkoff.github.io/educational-model-spec/docs/implementation-tools/learning_identity_tool.html)** - Start by understanding yourself as a learner
+- **[AI Disclosure Protocol](ai_disclosure_protocol.md)** - Build transparent AI collaboration practices
 - **[Community Guidelines](../../CONTRIBUTING.md)** - Learn how to contribute to this work
 - **[Latest Updates](../../CHANGELOG.md)** - See what's new and what's coming
 
