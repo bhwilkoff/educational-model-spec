@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Identity Designer</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+        }
+
+        h1 {
+            color: #2d3748;
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 15px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            color: #4a5568;
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .section {
+            margin-bottom: 40px;
+            padding: 25px;
+            background: #f7fafc;
+            border-radius: 15px;
+            border-left: 5px solid #667eea;
+        }
+
+        .section h2 {
+            color: #2d3748;
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .section p {
+            color: #4a5568;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .question-group {
+            margin-bottom: 25px;
+        }
+
+        .question {
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"], textarea, select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+        }
+
+        input[type="text"]:focus, textarea:focus, select:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        .checkbox-group {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .checkbox-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+            accent-color: #667eea;
+        }
+
+        .generate-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            width: 100%;
+            margin-top: 30px;
+        }
+
+        .generate-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+        }
+
+        .output-section {
+            margin-top: 40px;
+            padding: 30px;
+            background: #f0f4f8;
+            border-radius: 15px;
+            display: none;
+        }
+
+        .output-title {
+            color: #2d3748;
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .output-content {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #e2e8f0;
+            margin-bottom: 20px;
+        }
+
+        .copy-btn {
+            background: #38a169;
+            color: white;
+            padding: 8px 16px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            margin-top: 10px;
+        }
+
+        .copy-btn:hover {
+            background: #2f855a;
+        }
+
+        .learner-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 20px;
+            margin-top: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .learner-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+        }
+
+        .learner-card h3 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .learner-card .tagline {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            margin-bottom: 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .strengths-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .strength-badge {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 6px 12px;
+            border-radius: 15px;
+            text-align: center;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+
+        .need-badge {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 5px 10px;
+            border-radius: 12px;
+            text-align: center;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+
+        .expression-badge {
+            background: rgba(255, 255, 255, 0.25);
+            padding: 5px 10px;
+            border-radius: 12px;
+            text-align: center;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+
+        .constraint-tag {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 4px 8px;
+            border-radius: 10px;
+            font-size: 0.7rem;
+            text-align: center;
+        }
+
+        .ai-support-tag {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 4px 8px;
+            border-radius: 10px;
+            font-size: 0.7rem;
+            text-align: center;
+        }
+
+        .interests-section {
+            margin-top: 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .interests-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .interest-tag {
+            background: rgba(255, 255, 255, 0.3);
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.85rem;
+        }
+
+        .download-btn {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 10px 20px;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 25px;
+            cursor: pointer;
+            margin-top: 20px;
+            font-weight: 500;
+            position: relative;
+            z-index: 1;
+        }
+
+        .download-btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        .step-indicator {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+            gap: 10px;
+        }
+
+        .step {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: #e2e8f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            color: #a0aec0;
+        }
+
+        .step.active {
+            background: #667eea;
+            color: white;
+        }
+
+        .step.completed {
+            background: #38a169;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Learning Identity Designer</h1>
+        <p class="subtitle">Design your unique learning identity and create your personal AI collaboration guidelines. This tool helps you understand how you learn best and generates resources to support your authentic learning journey rooted in your cultural background and community connections.</p>
+        
+        <div style="text-align: center; margin-bottom: 30px; padding: 20px; background: rgba(255,255,255,0.1); border-radius: 15px;">
+            <p style="margin-bottom: 15px; color: #4a5568; font-size: 1rem; line-height: 1.6;">
+                This tool is based on the <strong>Educational Model Spec</strong> — an open-source framework for AI in education that prioritizes human learning, teacher empowerment, and student agency over test outcomes.
+            </p>
+            <a href="https://github.com/bhwilkoff/educational-model-spec" target="_blank" 
+               style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 10px 20px; border-radius: 25px; text-decoration: none; font-weight: 600; font-size: 0.9rem; transition: transform 0.3s ease;">
+                📚 Learn More About the Educational Model Spec
+            </a>
+        </div>
+        
+        <div class="step-indicator">
+            <div class="step active" id="step1">1</div>
+            <div class="step" id="step2">2</div>
+            <div class="step" id="step3">3</div>
+            <div class="step" id="step4">4</div>
+        </div>
+
+        <form id="learnerForm">
+            <div class="section">
+                <h2>🌟 About You</h2>
+                <p>Let's start with the basics. This helps create a foundation for understanding your learning identity.</p>
+                
+                <div class="question-group">
+                    <div class="question">What name would you like to use for your learning identity?</div>
+                    <input type="text" id="learnerName" placeholder="Your name or preferred learning identity">
+                </div>
+
+                <div class="question-group">
+                    <div class="question">What cultural backgrounds, traditions, or communities help shape how you see the world?</div>
+                    <input type="text" id="culturalBackground" placeholder="Your cultural heritage, family traditions, community identities...">
+                </div>
+
+                <div class="question-group">
+                    <div class="question">What grade level or learning context best describes you?</div>
+                    <select id="gradeLevel">
+                        <option value="">Select your level</option>
+                        <option value="Elementary (K-5)">Elementary (K-5)</option>
+                        <option value="Middle School (6-8)">Middle School (6-8)</option>
+                        <option value="High School (9-12)">High School (9-12)</option>
+                        <option value="College/University">College/University</option>
+                        <option value="Adult Learner">Adult Learner</option>
+                        <option value="Professional Development">Professional Development</option>
+                    </select>
+                </div>
+
+                <div class="question-group">
+                    <div class="question">Describe yourself as a learner in one sentence:</div>
+                    <input type="text" id="learnerDescription" placeholder="I am someone who learns best when...">
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>💪 Learning Strengths</h2>
+                <p>Understanding your strengths helps AI support your natural learning abilities rather than working against them.</p>
+                
+                <div class="question-group">
+                    <div class="question">Which learning approaches energize you most? (Check all that apply)</div>
+                    <div class="checkbox-group">
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="strength-visual" value="Visual learning">
+                            <label for="strength-visual">Visual learning (diagrams, images, colors)</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="strength-auditory" value="Auditory learning">
+                            <label for="strength-auditory">Auditory learning (discussions, music, sounds)</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="strength-kinesthetic" value="Hands-on learning">
+                            <label for="strength-kinesthetic">Hands-on learning (movement, building, experimenting)</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="strength-analytical" value="Analytical thinking">
+                            <label for="strength-analytical">Analytical thinking (breaking down problems)</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="strength-creative" value="Creative expression">
+                            <label for="strength-creative">Creative expression (art, storytelling, innovation)</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="strength-collaborative" value="Collaborative learning">
+                            <label for="strength-collaborative">Collaborative learning (group work, peer learning)</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="strength-independent" value="Independent research">
+                            <label for="strength-independent">Independent research (self-directed exploration)</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="strength-reflective" value="Reflective thinking">
+                            <label for="strength-reflective">Reflective thinking (journaling, meditation, quiet processing)</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="question-group">
+                    <div class="question">What's a specific example of when you learned something really well? What made that experience successful?</div>
+                    <textarea id="learningSuccess" placeholder="Describe a time when learning felt natural and engaging for you..."></textarea>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>🎯 Learning Needs & Challenges</h2>
+                <p>Knowing what challenges you helps AI provide better support and accommodations.</p>
+                
+                <div class="question-group">
+                    <div class="question">What learning challenges do you face? (Check all that apply)</div>
+                    <div class="checkbox-group">
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="need-focus" value="Maintaining focus">
+                            <label for="need-focus">Maintaining focus for long periods</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="need-instructions" value="Processing complex instructions">
+                            <label for="need-instructions">Processing complex instructions</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="need-writing" value="Writing and organizing thoughts">
+                            <label for="need-writing">Writing and organizing thoughts</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="need-math" value="Mathematical concepts">
+                            <label for="need-math">Mathematical concepts</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="need-memory" value="Remembering information">
+                            <label for="need-memory">Remembering information</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="need-anxiety" value="Test or performance anxiety">
+                            <label for="need-anxiety">Test or performance anxiety</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="need-time" value="Time management">
+                            <label for="need-time">Time management</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="need-social" value="Social learning situations">
+                            <label for="need-social">Social learning situations</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="question-group">
+                    <div class="question">What kind of support helps you most when learning gets difficult?</div>
+                    <textarea id="supportNeeds" placeholder="Describe what helps you persist when learning feels challenging..."></textarea>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>🔥 Interests & Passions</h2>
+                <p>Learning connected to your interests creates deeper engagement and better retention.</p>
+                
+                <div class="question-group">
+                    <div class="question">What topics, activities, or subjects genuinely excite you?</div>
+                    <textarea id="interests" placeholder="List anything that sparks your curiosity or passion..."></textarea>
+                </div>
+
+                <div class="question-group">
+                    <div class="question">Who in your community (family, friends, mentors, local experts) influences your learning or shares your interests?</div>
+                    <input type="text" id="communityConnections" placeholder="People who inspire your learning, share knowledge, or support your growth...">
+                </div>
+
+                <div class="question-group">
+                    <div class="question">How do you like to express your understanding? (Check all that apply)</div>
+                    <div class="checkbox-group">
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="express-writing" value="Writing">
+                            <label for="express-writing">Writing (essays, stories, blogs)</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="express-speaking" value="Speaking">
+                            <label for="express-speaking">Speaking (presentations, discussions)</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="express-visual" value="Visual creation">
+                            <label for="express-visual">Visual creation (art, diagrams, videos)</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="express-building" value="Building/Making">
+                            <label for="express-building">Building/Making (models, prototypes, crafts)</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="express-performing" value="Performance">
+                            <label for="express-performing">Performance (music, drama, dance)</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="express-digital" value="Digital creation">
+                            <label for="express-digital">Digital creation (websites, apps, games)</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="question-group">
+                    <div class="question">What's a question or problem you're genuinely curious about right now?</div>
+                    <input type="text" id="currentCuriosity" placeholder="What are you wondering about lately?">
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>⚙️ Learning Constraints & Context</h2>
+                <p>Understanding your constraints helps create realistic and supportive learning experiences.</p>
+                
+                <div class="question-group">
+                    <div class="question">What constraints or considerations should AI keep in mind when working with you?</div>
+                    <div class="checkbox-group">
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="constraint-time" value="Limited time">
+                            <label for="constraint-time">Limited time for learning</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="constraint-tech" value="Limited technology access">
+                            <label for="constraint-tech">Limited technology access</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="constraint-quiet" value="Need for quiet space">
+                            <label for="constraint-quiet">Need for quiet space</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="constraint-language" value="English as second language">
+                            <label for="constraint-language">English as second language</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="constraint-accessibility" value="Accessibility needs">
+                            <label for="constraint-accessibility">Accessibility needs</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="constraint-materials" value="Limited learning materials">
+                            <label for="constraint-materials">Limited learning materials</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="question-group">
+                    <div class="question">How does your location or cultural context shape your learning environment?</div>
+                    <input type="text" id="learningContext" placeholder="Rural/urban setting, cultural learning traditions, family expectations, community resources...">
+                </div>
+
+                <div class="question-group">
+                    <div class="question">What are your current learning goals or aspirations?</div>
+                    <textarea id="learningGoals" placeholder="What do you hope to achieve or become better at?"></textarea>
+                </div>
+
+                <div class="question-group">
+                    <div class="question">How do you want AI to support your learning? (Check all that apply)</div>
+                    <div class="checkbox-group">
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="ai-questioning" value="Ask probing questions">
+                            <label for="ai-questioning">Ask probing questions to deepen my thinking</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="ai-connections" value="Help make connections">
+                            <label for="ai-connections">Help me make connections across ideas</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="ai-feedback" value="Provide feedback">
+                            <label for="ai-feedback">Provide feedback on my work and thinking</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="ai-resources" value="Suggest resources">
+                            <label for="ai-resources">Suggest relevant resources and materials</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="ai-organizing" value="Help organize ideas">
+                            <label for="ai-organizing">Help me organize and structure my ideas</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="ai-challenge" value="Challenge my assumptions">
+                            <label for="ai-challenge">Challenge my assumptions and push my thinking</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button type="button" class="generate-btn" onclick="generateProfile()">Design My Learning Identity</button>
+        </form>
+
+        <div id="outputSection" class="output-section">
+            <div class="output-title">🎉 Your Learning Identity</div>
+            
+            <div class="output-content">
+                <h3>📋 AI Collaboration Parameters</h3>
+                <p>Copy this text and paste it into any AI tool (ChatGPT, Claude, etc.) to help it understand how to work with you according to <a href="https://github.com/bhwilkoff/educational-model-spec" target="_blank" style="color: #667eea; text-decoration: none; font-weight: 600;">Educational Model Spec</a> principles:</p>
+                <div id="aiParameters" style="background: #f8f9fa; padding: 15px; border-radius: 8px; font-family: monospace; white-space: pre-wrap; margin-top: 10px;"></div>
+                <button class="copy-btn" onclick="copyToClipboard('aiParameters')">Copy Parameters</button>
+            </div>
+
+            <div class="output-content">
+                <h3>🎨 Your Visual Learning Identity</h3>
+                <p>This is your personal learning identity card that you can display, share, or save:</p>
+                <div id="learnerCard"></div>
+                <button class="copy-btn" onclick="downloadCard()">Download as Image</button>
+            </div>
+
+            <div class="output-content">
+                <h3>🔄 Keep Growing</h3>
+                <p>Your learning identity should evolve as you grow and discover more about yourself. Consider revisiting this tool periodically to update your identity. Remember: learning is change, and that includes learning about how you learn!</p>
+                
+                <div style="margin-top: 20px; padding: 15px; background: #e6f3ff; border-radius: 10px; border-left: 4px solid #667eea;">
+                    <h4 style="margin-bottom: 10px; color: #2d3748;">📚 Want to Learn More?</h4>
+                    <p style="margin-bottom: 15px; color: #4a5568;">Explore the full Educational Model Spec to understand how AI can serve authentic learning in educational communities:</p>
+                    <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                        <a href="https://github.com/bhwilkoff/educational-model-spec" target="_blank" 
+                           style="display: inline-block; background: #667eea; color: white; padding: 8px 16px; border-radius: 20px; text-decoration: none; font-size: 0.9rem; font-weight: 500;">
+                            📖 Full Specification
+                        </a>
+                        <a href="https://github.com/bhwilkoff/educational-model-spec/tree/main/docs/implementation-tools" target="_blank" 
+                           style="display: inline-block; background: #38a169; color: white; padding: 8px 16px; border-radius: 20px; text-decoration: none; font-size: 0.9rem; font-weight: 500;">
+                            🛠️ Implementation Tools
+                        </a>
+                        <a href="https://github.com/bhwilkoff/educational-model-spec/discussions" target="_blank" 
+                           style="display: inline-block; background: #764ba2; color: white; padding: 8px 16px; border-radius: 20px; text-decoration: none; font-size: 0.9rem; font-weight: 500;">
+                            💬 Join Discussion
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function updateSteps(currentStep) {
+            for (let i = 1; i <= 4; i++) {
+                const step = document.getElementById(`step${i}`);
+                if (i < currentStep) {
+                    step.className = 'step completed';
+                } else if (i === currentStep) {
+                    step.className = 'step active';
+                } else {
+                    step.className = 'step';
+                }
+            }
+        }
+
+        function getCheckedValues(name) {
+            const checkboxes = document.querySelectorAll(`input[id^="${name}"]:checked`);
+            return Array.from(checkboxes).map(cb => cb.value);
+        }
+
+        function generateProfile() {
+            updateSteps(4);
+            
+            // Collect form data
+            const formData = {
+                name: document.getElementById('learnerName').value || 'Anonymous Learner',
+                culturalBackground: document.getElementById('culturalBackground').value,
+                gradeLevel: document.getElementById('gradeLevel').value,
+                description: document.getElementById('learnerDescription').value,
+                strengths: getCheckedValues('strength-'),
+                learningSuccess: document.getElementById('learningSuccess').value,
+                needs: getCheckedValues('need-'),
+                supportNeeds: document.getElementById('supportNeeds').value,
+                interests: document.getElementById('interests').value,
+                communityConnections: document.getElementById('communityConnections').value,
+                expressionMethods: getCheckedValues('express-'),
+                currentCuriosity: document.getElementById('currentCuriosity').value,
+                constraints: getCheckedValues('constraint-'),
+                learningContext: document.getElementById('learningContext').value,
+                learningGoals: document.getElementById('learningGoals').value,
+                aiSupport: getCheckedValues('ai-')
+            };
+
+            // Generate AI parameters
+            const aiParameters = generateAIParameters(formData);
+            document.getElementById('aiParameters').textContent = aiParameters;
+
+            // Generate visual card
+            const learnerCard = generateLearnerCard(formData);
+            document.getElementById('learnerCard').innerHTML = learnerCard;
+
+            // Show output section
+            document.getElementById('outputSection').style.display = 'block';
+            document.getElementById('outputSection').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function generateAIParameters(data) {
+            return `🎓 LEARNING IDENTITY COLLABORATION PROFILE 🎓
+=====================================================
+
+Hello! I'm sharing my learning identity with you so we can work together more effectively. This identity was created using the Educational Model Spec framework, which emphasizes authentic learning that makes me more human, not more dependent on AI.
+
+Please use this information to:
+✅ Understand how I learn best and adapt your responses accordingly
+✅ Support my learning journey while keeping me in control of my thinking
+✅ Ask questions that deepen my understanding rather than providing quick answers
+✅ Help me make connections between ideas and my lived experiences
+❌ Do NOT provide completed work, write assignments for me, or replace my thinking
+
+==============================================
+📋 MY LEARNING IDENTITY
+==============================================
+
+🆔 LEARNING IDENTITY:
+• Name: ${data.name}
+• Level: ${data.gradeLevel}
+• Cultural Background: ${data.culturalBackground}
+• Self-Description: ${data.description}
+
+💪 LEARNING STRENGTHS:
+${data.strengths.map(s => `• ${s}`).join('\n')}
+
+🌟 SUCCESSFUL LEARNING EXPERIENCE:
+${data.learningSuccess}
+
+⚠️ LEARNING CHALLENGES & NEEDS:
+${data.needs.map(n => `• ${n}`).join('\n')}
+
+🤝 SUPPORT STRATEGIES THAT HELP ME:
+${data.supportNeeds}
+
+🔥 INTERESTS & PASSIONS:
+${data.interests}
+
+👥 COMMUNITY CONNECTIONS:
+${data.communityConnections}
+
+🎨 HOW I LIKE TO EXPRESS MY UNDERSTANDING:
+${data.expressionMethods.map(e => `• ${e}`).join('\n')}
+
+🤔 CURRENT CURIOSITY:
+${data.currentCuriosity}
+
+⚙️ CONSTRAINTS TO CONSIDER:
+${data.constraints.map(c => `• ${c}`).join('\n')}
+
+🌍 LEARNING CONTEXT:
+${data.learningContext}
+
+🎯 MY LEARNING GOALS:
+${data.learningGoals}
+
+🤖 HOW I WANT AI TO SUPPORT MY LEARNING:
+${data.aiSupport.map(a => `• ${a}`).join('\n')}
+
+==============================================
+📜 EDUCATIONAL MODEL SPEC PRINCIPLES
+==============================================
+
+Please support my learning according to these core principles:
+
+🧠 Help me become more fully human through learning - strengthen my capacity to think critically, create meaningfully, and connect authentically
+
+🔗 Connect all learning to my personal experiences, cultural background, and interests listed above
+
+🌐 Help me see connections across disciplines, cultures, and contexts
+
+👥 Facilitate collaboration opportunities when appropriate, honoring my community connections
+
+🔄 Support my intellectual flexibility and comfort with uncertainty - encourage me to revise my thinking
+
+💬 Provoke meaningful dialogue and reflection through thoughtful questions
+
+🎯 Amplify my agency as a self-directed learner - support my own goals and curiosities
+
+==============================================
+🚨 IMPORTANT COLLABORATION GUIDELINES
+==============================================
+
+ALWAYS ASK FIRST: "What have you tried so far? What specific part is challenging you?"
+
+DURING OUR WORK:
+• Ask clarifying questions rather than assume what I want
+• Provide thinking scaffolds, not completed thoughts  
+• Encourage multiple approaches: "What's another way to think about this?"
+• Connect to my interests, cultural background, and prior learning
+• Prompt evidence-seeking: "What makes you think that?"
+
+AFTER HELPING:
+• Ask me to explain concepts in my own words
+• Help me see where else I might use this thinking
+• Encourage reflection on what was challenging or breakthrough moments
+
+REMEMBER: My learning should always remain authentically mine. Your role is to strengthen my thinking, never replace it. If I ask for shortcuts or completed work, please redirect me toward learning instead.
+
+Thank you for helping me learn and grow! 🚀`;
+        }
+
+        function generateLearnerCard(data) {
+            const strengthsList = data.strengths.slice(0, 6).map(s => {
+                const emoji = getEmojiForStrength(s);
+                return `<div class="strength-badge">${emoji} ${s}</div>`;
+            }).join('');
+            
+            const needsList = data.needs.slice(0, 4).map(n => {
+                const emoji = getEmojiForNeed(n);
+                return `<div class="need-badge">${emoji} ${n}</div>`;
+            }).join('');
+            
+            const interestsList = data.interests.split(',').slice(0, 8).map(i => {
+                return `<div class="interest-tag">🌟 ${i.trim()}</div>`;
+            }).join('');
+            
+            const expressionList = data.expressionMethods.slice(0, 4).map(e => {
+                const emoji = getEmojiForExpression(e);
+                return `<div class="expression-badge">${emoji} ${e}</div>`;
+            }).join('');
+            
+            const constraintsList = data.constraints.slice(0, 3).map(c => {
+                const emoji = getEmojiForConstraint(c);
+                return `<div class="constraint-tag">${emoji} ${c}</div>`;
+            }).join('');
+            
+            const aiSupportList = data.aiSupport.slice(0, 4).map(a => {
+                const emoji = getEmojiForAISupport(a);
+                return `<div class="ai-support-tag">${emoji} ${a}</div>`;
+            }).join('');
+            
+            return `
+                <div class="learner-card" id="learnerCardContent">
+                    <div style="text-align: center; margin-bottom: 25px;">
+                        <h3 style="margin-bottom: 8px; font-size: 2rem;">🎓 ${data.name}</h3>
+                        <div class="tagline" style="font-size: 1.1rem; margin-bottom: 5px;">${data.description}</div>
+                        <div style="font-size: 0.9rem; opacity: 0.8;">📚 ${data.gradeLevel} Learner</div>
+                        ${data.culturalBackground ? `<div style="font-size: 0.85rem; opacity: 0.8; margin-top: 5px;">🌍 ${data.culturalBackground}</div>` : ''}
+                    </div>
+                    
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px;">
+                        <div>
+                            <h4 style="margin-bottom: 12px; font-size: 1.1rem; display: flex; align-items: center;">
+                                💪 Learning Strengths
+                            </h4>
+                            <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                                ${strengthsList}
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <h4 style="margin-bottom: 12px; font-size: 1.1rem; display: flex; align-items: center;">
+                                ⚠️ Learning Needs
+                            </h4>
+                            <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                                ${needsList}
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div style="margin-bottom: 20px;">
+                        <h4 style="margin-bottom: 12px; font-size: 1.1rem;">🔥 Interests & Passions</h4>
+                        <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+                            ${interestsList}
+                        </div>
+                    </div>
+                    
+                    ${data.communityConnections ? `
+                    <div style="margin-bottom: 20px;">
+                        <h4 style="margin-bottom: 8px; font-size: 1rem;">👥 Community Connections</h4>
+                        <div style="font-size: 0.85rem; font-style: italic; opacity: 0.9;">${data.communityConnections}</div>
+                    </div>
+                    ` : ''}
+                    
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px;">
+                        <div>
+                            <h4 style="margin-bottom: 12px; font-size: 1.1rem;">🎨 How I Express Learning</h4>
+                            <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+                                ${expressionList}
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <h4 style="margin-bottom: 12px; font-size: 1.1rem;">⚙️ Learning Constraints</h4>
+                            <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+                                ${constraintsList}
+                            </div>
+                        </div>
+                    </div>
+                    
+                    ${data.learningContext ? `
+                    <div style="margin-bottom: 20px;">
+                        <h4 style="margin-bottom: 8px; font-size: 1rem;">🌍 Learning Context</h4>
+                        <div style="font-size: 0.85rem; font-style: italic; opacity: 0.9;">${data.learningContext}</div>
+                    </div>
+                    ` : ''}
+                    
+                    <div style="margin-bottom: 20px;">
+                        <h4 style="margin-bottom: 12px; font-size: 1.1rem;">🤖 How AI Should Support Me</h4>
+                        <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+                            ${aiSupportList}
+                        </div>
+                    </div>
+                    
+                    <div style="margin-bottom: 20px; padding: 15px; background: rgba(255,255,255,0.1); border-radius: 10px;">
+                        <h4 style="margin-bottom: 8px; font-size: 1rem;">🤔 Current Curiosity</h4>
+                        <div style="font-size: 0.9rem; font-style: italic;">"${data.currentCuriosity}"</div>
+                    </div>
+                    
+                    <div style="margin-bottom: 15px; padding: 15px; background: rgba(255,255,255,0.1); border-radius: 10px;">
+                        <h4 style="margin-bottom: 8px; font-size: 1rem;">🎯 Learning Goals</h4>
+                        <div style="font-size: 0.9rem;">${data.learningGoals}</div>
+                    </div>
+                    
+                    <div style="text-align: center; padding-top: 15px; border-top: 1px solid rgba(255,255,255,0.3);">
+                        <div style="font-size: 0.8rem; opacity: 0.8; margin-bottom: 8px;">
+                            🎨 Learning Identity • Educational Model Spec Aligned • Learning is Change
+                        </div>
+                        <div style="font-size: 0.7rem; opacity: 0.7;">
+                            Learn more: github.com/bhwilkoff/educational-model-spec
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function getEmojiForStrength(strength) {
+            const emojiMap = {
+                'Visual learning': '👁️',
+                'Auditory learning': '👂',
+                'Hands-on learning': '✋',
+                'Analytical thinking': '🧠',
+                'Creative expression': '🎨',
+                'Collaborative learning': '👥',
+                'Independent research': '🔍',
+                'Reflective thinking': '🤔'
+            };
+            return emojiMap[strength] || '✨';
+        }
+
+        function getEmojiForNeed(need) {
+            const emojiMap = {
+                'Maintaining focus': '🎯',
+                'Processing complex instructions': '📋',
+                'Writing and organizing thoughts': '✍️',
+                'Mathematical concepts': '🔢',
+                'Remembering information': '🧠',
+                'Test or performance anxiety': '😰',
+                'Time management': '⏰',
+                'Social learning situations': '👥'
+            };
+            return emojiMap[need] || '⚠️';
+        }
+
+        function getEmojiForExpression(expression) {
+            const emojiMap = {
+                'Writing': '✍️',
+                'Speaking': '🗣️',
+                'Visual creation': '🎨',
+                'Building/Making': '🔨',
+                'Performance': '🎭',
+                'Digital creation': '💻'
+            };
+            return emojiMap[expression] || '🎪';
+        }
+
+        function getEmojiForConstraint(constraint) {
+            const emojiMap = {
+                'Limited time': '⏰',
+                'Limited technology access': '📱',
+                'Need for quiet space': '🤫',
+                'English as second language': '🌍',
+                'Accessibility needs': '♿',
+                'Limited learning materials': '📚'
+            };
+            return emojiMap[constraint] || '⚙️';
+        }
+
+        function getEmojiForAISupport(support) {
+            const emojiMap = {
+                'Ask probing questions': '❓',
+                'Help make connections': '🔗',
+                'Provide feedback': '💭',
+                'Suggest resources': '📖',
+                'Help organize ideas': '🗂️',
+                'Challenge my assumptions': '🤺'
+            };
+            return emojiMap[support] || '🤖';
+        }
+
+        function copyToClipboard(elementId) {
+            const element = document.getElementById(elementId);
+            const text = element.textContent;
+            navigator.clipboard.writeText(text).then(() => {
+                const btn = event.target;
+                const originalText = btn.textContent;
+                btn.textContent = 'Copied!';
+                btn.style.background = '#38a169';
+                setTimeout(() => {
+                    btn.textContent = originalText;
+                    btn.style.background = '#38a169';
+                }, 2000);
+            });
+        }
+
+        function downloadCard() {
+            const cardElement = document.getElementById('learnerCardContent');
+            if (!cardElement) {
+                alert('Please generate your learner profile first!');
+                return;
+            }
+
+            // Show loading state
+            const btn = event.target;
+            const originalText = btn.textContent;
+            btn.textContent = 'Generating Image...';
+            btn.disabled = true;
+
+            html2canvas(cardElement, {
+                backgroundColor: null,
+                scale: 2, // Higher resolution
+                useCORS: true,
+                allowTaint: true,
+                width: cardElement.offsetWidth,
+                height: cardElement.offsetHeight
+            }).then(canvas => {
+                // Create download link
+                const link = document.createElement('a');
+                link.download = `${document.getElementById('learnerName').value || 'My'}_Learning_Identity.png`;
+                link.href = canvas.toDataURL('image/png');
+                
+                // Trigger download
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+                
+                // Reset button
+                btn.textContent = originalText;
+                btn.disabled = false;
+            }).catch(error => {
+                console.error('Error generating image:', error);
+                alert('There was an error generating the image. Please try again or take a screenshot.');
+                btn.textContent = originalText;
+                btn.disabled = false;
+            });
+        }
+
+        // Initialize first step
+        updateSteps(1);
+    </script>
+</body>
+</html>
