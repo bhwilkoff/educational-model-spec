@@ -11,7 +11,7 @@ This specification is designed BY educators, students, families, and communities
 ## 📚 Quick Start
 
 - 🌟 **[Read the Full Specification](docs/overview.md)** - Our complete framework for learning-centered AI
-- 🎤 **[View the Pitch Presentation](pitch.html)** - 13-slide overview perfect for sharing with stakeholders
+- 🎤 **[View the Pitch Presentation](https://bhwilkoff.github.io/educational-model-spec/pitch.html)** - 13-slide overview perfect for sharing with stakeholders
 - 🛠️ **[Implementation Tools](docs/implementation-tools/)** - Practical resources to start implementing today
 - 💬 **[Join the Discussion](../../discussions)** - Share your thoughts and experiences
 - 🤝 **[How to Contribute](CONTRIBUTING.md)** - Add your voice to this living document
@@ -30,7 +30,7 @@ Unlike AI specifications designed by tech companies, this model spec:
 
 ## 📊 Share the Vision
 
-### [🎤 Pitch Presentation](pitch.html)
+### [🎤 Pitch Presentation](https://bhwilkoff.github.io/educational-model-spec/pitch.html)
 A compelling 13-slide presentation that makes the case for learning-centered AI specification. Perfect for:
 
 - **Educators** introducing the concept to colleagues and administrators
@@ -70,6 +70,7 @@ Beyond diversity theater, educational justice, community accountability
 ## 🛠️ Ready to Implement?
 
 ### Available Tools
+- **[Learning Identity Designer](https://bhwilkoff.github.io/educational-model-spec/docs/implementation-tools/learning_identity_tool.html)** - Help students understand themselves as learners and create personalized AI collaboration guidelines
 - **[AI Disclosure & Reflection Protocol](docs/implementation-tools/ai_disclosure_protocol.md)** - Start building transparent AI collaboration practices
 - **[Thinking Engagement Rubrics](docs/implementation-tools/thinking_engagement_rubrics.md)** - Help students distinguish between AI shortcuts and productive thinking
 - **[AI Guardrails Prompt(s)](docs/implementation-tools/ai_guardrails_prompt.md)** - Transform ChatGPT, Claude, or any other AI into a learning partner that follows the Educational Model Spec.
