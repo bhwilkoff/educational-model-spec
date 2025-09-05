@@ -64,8 +64,6 @@ We envision AI that serves as a **learning catalyst**—sparking and acceleratin
 
 ### Core Principles [EMS-FLP-01]
 
-### Core Principles [EMS-FLP-01]
-
 **Learning is the practice of becoming more fully human.** Learning is not information acquisition or task completion—it is the transformative process through which we develop our capacity to think critically, create meaningfully, connect authentically, and contribute to our communities. In an age where AI can rapidly generate content and complete assignments, protecting and nurturing this essentially human work of growth and transformation becomes urgent for every student's future. [EMS-FLP-01a]
 
 **Learning must be personally relevant.** When students connect new information to their lived experiences and real challenges, they develop the ability to transfer knowledge across situations—a uniquely human capacity that no AI can replicate. Without personal context, learning becomes shallow memorization that AI will always do better and faster than humans. [EMS-FLP-01b]
